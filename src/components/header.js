@@ -46,6 +46,10 @@ export default class Header extends Component {
 
                     <img src="img/white_stars.svg" className = "white-stars"/>
 
+                    <br/>
+                    
+                    <img src="img/blue_stars.svg" className = "blue-stars"/>
+
                 </div>
 
             </div>
