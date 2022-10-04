@@ -1,5 +1,40 @@
 
 .main-logo {
-    width: 100%;
-    height: 100%;
+    width: 80vw;
+    height: auto;
+}
+
+.bg-mountains {
+    
+    width: 100vw;
+    height: auto;
+
+}
+
+.level-bg {
+    position:absolute;
+    z-index: 1;
+    top: -6vh;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.level-main {
+    position:relative;
+    z-index: 2;
+}
+
+.subtitle {
+    color: white;
+    font-size: 5vw;
+}
+
+.white-stars {
+    width: 8vh;
+    height: 8vh;
+    position: relative;
+    top: -10vh;
+    left: 26vw;
+
 }
