@@ -44,6 +44,8 @@ export default class Body extends Component {
 
                 <img src="img/blue_stars.svg" id = "blue-stars-reversed"/>
 
+                <img src="img/mountains_illustration2.svg" id="mountains-illustration2" />
+
 
             </div>
             

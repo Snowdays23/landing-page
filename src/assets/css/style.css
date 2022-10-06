@@ -21,6 +21,14 @@
     top: 11vh;
 }
 
+#mountains-illustration2 {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    top: -18vh;
+}
+
 .main-logo {
     width: 80vw;
     height: auto;
