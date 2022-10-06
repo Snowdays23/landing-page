@@ -1,3 +1,12 @@
+#blue-stars-reversed {
+    width: 10vw;
+    height: auto;
+    position: relative;
+    top: -5vh;
+    left: 32vw;
+    transform: rotateY(180deg); 
+}
+
 
 .main-logo {
     width: 80vw;
@@ -48,3 +57,4 @@
     top: 6vh;
     left: -36vw;
 }
+
