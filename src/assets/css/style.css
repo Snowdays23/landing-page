@@ -2,11 +2,24 @@
     width: 10vw;
     height: auto;
     position: relative;
-    top: -5vh;
+    top: -43vh;
     left: 32vw;
     transform: rotateY(180deg); 
+    z-index: 1;
 }
 
+#girl-snowboard {
+    width: 53vw;
+    height: 37vh;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+#learn-more-btn {
+    border-radius:.80rem;
+    position: relative;
+    top: 11vh;
+}
 
 .main-logo {
     width: 80vw;
