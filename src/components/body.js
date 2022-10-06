@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import snowboardSport from '../assets/img/pic-girl-snowboard.jpg';
+import blueStars from '../assets/img/blue_stars.svg';
+import bgMountains from '../assets/img/mountains_illustration2.svg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
 import "../assets/css/style.css";
@@ -34,7 +37,7 @@ export default class Body extends Component {
 
                         <div className='col-7'> 
 
-                            <img src="img/pic-girl-snowboard.jpg" id="girl-snowboard"/>
+                            <img src={snowboardSport} id="girl-snowboard"/>
 
                         </div>
 
@@ -42,9 +45,9 @@ export default class Body extends Component {
 
                 </div>
 
-                <img src="img/blue_stars.svg" id = "blue-stars-reversed"/>
+                <img src={blueStars} id = "blue-stars-reversed"/>
 
-                <img src="img/mountains_illustration2.svg" id="mountains-illustration2" />
+                <img src={bgMountains} id="mountains-illustration2" />
 
 
             </div>
