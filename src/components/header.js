@@ -28,7 +28,7 @@ export default class Header extends Component {
 
                         <div className=''>
 
-                            <img src="img/logo-sd-23.png" className = "main-logo"/>
+                            <img src="img/Logo_SD_23.svg" className = "main-logo"/>
 
                         </div>
                         
