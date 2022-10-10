@@ -29,6 +29,13 @@
     top: -18vh;
 }
 
+#real-mountains {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+}
+
 .main-logo {
     width: 80vw;
     height: auto;

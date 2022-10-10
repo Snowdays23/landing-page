@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import bgMountains from '../assets/img/mountains_illustration.svg';
+import bgMountains from '../assets/img/mountains_illustration1.svg';
 import logoSD23 from '../assets/img/Logo_SD_23.svg';
 import whiteStars from '../assets/img/white_stars.svg';
 import blueStars from '../assets/img/blue_stars.svg';
+import realMountains from '../assets/img/header-min.jpg';
 import "../assets/css/style.css";
 import "../assets/css/bootstrap.min.css";
 
@@ -11,6 +12,8 @@ export default class Header extends Component {
         return (
 
             <div className = "wrapper-outside">
+
+                <img src = {realMountains} id = "real-mountains" />
 
                 <div className = "level-bg">
                     
