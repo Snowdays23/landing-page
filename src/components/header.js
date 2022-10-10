@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import bgMountains from '../assets/img/mountains_illustration.svg';
+import logoSD23 from '../assets/img/Logo_SD_23.svg';
+import whiteStars from '../assets/img/white_stars.svg';
+import blueStars from '../assets/img/blue_stars.svg';
 import "../assets/css/style.css";
 import "../assets/css/bootstrap.min.css";
 
@@ -14,7 +18,7 @@ export default class Header extends Component {
 
                         <div className='col-12'>
 
-                             <img src="img/mountains_illustration.svg" className = "bg-mountains"/>
+                             <img src={bgMountains} className = "bg-mountains"/>
             
                         </div>
 
@@ -28,7 +32,7 @@ export default class Header extends Component {
 
                         <div className=''>
 
-                            <img src="img/Logo_SD_23.svg" className = "main-logo"/>
+                            <img src={logoSD23} className = "main-logo"/>
 
                         </div>
                         
@@ -44,11 +48,11 @@ export default class Header extends Component {
                         
                     </div>
 
-                    <img src="img/white_stars.svg" className = "white-stars"/>
+                    <img src={whiteStars} className = "white-stars"/>
 
                     <br/>
                     
-                    <img src="img/blue_stars.svg" className = "blue-stars"/>
+                    <img src={blueStars} className = "blue-stars"/>
 
                 </div>
 
