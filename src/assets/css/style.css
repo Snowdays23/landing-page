@@ -29,7 +29,13 @@
     top: -18vh;
 }
 
-#real-mountains {
+.wrapper-parallex {
+    width: 110vw;
+    position: relative;
+    right: 38vw;
+}
+
+.real-mountains {
     position: fixed;
     height: 60vh;
     width: auto;

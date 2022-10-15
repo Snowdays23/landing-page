@@ -6,6 +6,7 @@ import blueStars from '../assets/img/blue_stars.svg';
 import realMountains from '../assets/img/header-min.jpg';
 import "../assets/css/style.css";
 import "../assets/css/bootstrap.min.css";
+import "../assets/js/PureSnow.js";
 
 export default class Header extends Component {
     render () {
@@ -13,9 +14,9 @@ export default class Header extends Component {
 
             <div className = "wrapper-outside ">
 
-                <div className = "row justify-content-center ">
+                <div id="snow" className = "row justify-content-center wrapper-parallex ">
 
-                    <img src = {realMountains} id = "real-mountains" />
+                    <img  src = {realMountains} class = "real-mountains" />
 
                 </div>
 
