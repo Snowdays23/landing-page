@@ -13,7 +13,12 @@ export default class Header extends Component {
 
             <div className = "wrapper-outside">
 
-                <img src = {realMountains} id = "real-mountains" />
+                <div className = "row justify-content-center">
+
+                    <img src = {realMountains} id = "real-mountains" />
+
+                </div>
+
 
                 <div className = "level-bg">
                     

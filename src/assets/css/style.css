@@ -34,6 +34,7 @@
     height: auto;
     position: absolute;
     z-index: -1;
+    top: 3vh;
 }
 
 .main-logo {
