@@ -95,6 +95,7 @@
 .subtitle {
     color: white;
     font-size: 5vw;
+    -webkit-filter: drop-shadow(0px 0px 4px #304f9e9b);
 }
 
 .white-stars {
@@ -103,7 +104,7 @@
     position: relative;
     top: -10vh;
     left: 26vw;
-    -webkit-filter: drop-shadow(0px 0px 9px #fff);
+    -webkit-filter: drop-shadow(0px 0px 9px #304f9e);
 
 }
 
