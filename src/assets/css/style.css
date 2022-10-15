@@ -30,11 +30,33 @@
 }
 
 #real-mountains {
-    width: 100vw;
-    height: auto;
-    position: absolute;
+    position: fixed;
+    height: 60vh;
+    width: auto;
+    z-index: -2;
+}
+
+.white-div {
+    background-color: #fff;
+    height: 10vh;
     z-index: -1;
-    top: 3vh;
+    position: relative
+}
+
+.white-div2 {
+    background-color: #fff;
+    height: 2vh;
+    z-index: -1;
+    position: relative;
+    top: -1vh;
+}
+
+.white-div3 {
+    background-color: #fff;
+    height: 2vh;
+    z-index: -1;
+    position: relative;
+    top: -5vh;
 }
 
 .main-logo {
@@ -50,10 +72,15 @@
 
 }
 
+
+.wrapper-outside-body {
+    background-color: #fff;
+}
+
 .level-bg {
     position:absolute;
     z-index: 1;
-    top: -6vh;
+    top: 2vh;
     left:0;
     right:0;
     bottom:0;
@@ -62,6 +89,7 @@
 .level-main {
     position:relative;
     z-index: 2;
+    top: -9vh;
 }
 
 .subtitle {

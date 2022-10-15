@@ -11,16 +11,18 @@ export default class Header extends Component {
     render () {
         return (
 
-            <div className = "wrapper-outside">
+            <div className = "wrapper-outside ">
 
-                <div className = "row justify-content-center">
+                <div className = "row justify-content-center ">
 
                     <img src = {realMountains} id = "real-mountains" />
 
                 </div>
 
+                <div className = "white-div"></div>
 
-                <div className = "level-bg">
+
+                <div className = "level-bg ">
                     
                     <div className='row justify-content-center mt-5 pb-5'>
 
@@ -63,6 +65,8 @@ export default class Header extends Component {
                     <img src={blueStars} className = "blue-stars"/>
 
                 </div>
+
+                <div className = "white-div2"></div>
 
             </div>
             
