@@ -1,6 +1,6 @@
-let snowflakes_count = 200;
+let snowflakes_count = 50;
 
-let total = 200;
+let total = 50;
 let base_css = `.snowflake {
     position: absolute;
     width: 10px;
