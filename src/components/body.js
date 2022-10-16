@@ -10,11 +10,11 @@ export default class Body extends Component {
     render () {
         return (
 
-            <div className = "wrapper-outside-body pt-4 ">
+            <div className = "wrapper-outside-body  ">
 
                 <div className = "white-div3"></div>
 
-                <div className='row justify-content-center'>
+                <div className='row justify-content-center wrapper-text' >
 
                     <div className='col-10'>
 

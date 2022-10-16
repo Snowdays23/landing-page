@@ -65,18 +65,18 @@
 
 .white-div2 {
     background-color: #fff;
-    height: 2vh;
+    height: 4vh;
     z-index: -1;
     position: relative;
-    top: -1vh;
+    top: -6vh;
 }
 
 .white-div3 {
     background-color: #fff;
-    height: 2vh;
+    height: 6vh;
     z-index: -1;
     position: relative;
-    top: -5vh;
+    top: -6vh;
 }
 
 .main-logo {
@@ -92,6 +92,10 @@
 
 }
 
+.wrapper-text {
+    top: -5vh;
+    position: relative;
+}
 
 .wrapper-outside-body {
     background-color: #fff;

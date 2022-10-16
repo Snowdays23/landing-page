@@ -14,7 +14,6 @@ export default class Header extends Component {
 
             <div className = "wrapper-outside ">
 
-                
 
                 <div className = "white-div"></div>
 
