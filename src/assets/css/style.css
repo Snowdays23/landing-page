@@ -85,6 +85,13 @@
     -webkit-filter: drop-shadow(0px 0px 7px #fff);
 }
 
+.yt-video {
+    width: 90vw;
+    height: 30vh;
+    position: relative;
+    top: -6vh;  
+}
+
 .bg-mountains {
     
     width: 100vw;

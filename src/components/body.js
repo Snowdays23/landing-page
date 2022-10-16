@@ -27,19 +27,16 @@ export default class Body extends Component {
                 <br/>
                     
                 
-                <div className='container mt-2'>
+                <div className='container mt-3'>
 
                     <div className='row justify-content-center'>
 
-                        <div className='col-3'> 
-                        
-                            <button type="button" className="btn btn-primary p-3" id="learn-more-btn"> learn more </button>
-                        
-                        </div>
+                        <div className='col-12'> 
 
-                        <div className='col-7'> 
-
-                            <img src={snowboardSport} id="girl-snowboard"/>
+                        <iframe className = "yt-video"  src="https://www.youtube.com/embed/68TUBKxxVug?autoplay=1&mute=1"
+                         title="YouTube video player" frameborder="0" 
+                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                         allowfullscreen></iframe>
 
                         </div>
 
