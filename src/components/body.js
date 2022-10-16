@@ -10,11 +10,13 @@ export default class Body extends Component {
     render () {
         return (
 
-            <div className = "wrapper-outside mt-5 pt-1">
+            <div className = "wrapper-outside-body  ">
 
-                <div className='row justify-content-center mt-3'>
+                <div className = "white-div3"></div>
 
-                    <div className='col-10 mt-1'>
+                <div className='row justify-content-center wrapper-text' >
+
+                    <div className='col-10'>
 
                         <p className=''>We are more than thrilled to announce the comeback of the biggest winter sports event in all of Europe</p>
 
