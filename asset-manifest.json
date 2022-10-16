@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.c7c94224.css",
-    "main.js": "/landing-page/static/js/main.786d6a54.js",
+    "main.css": "/landing-page/static/css/main.a439b28f.css",
+    "main.js": "/landing-page/static/js/main.98eecac7.js",
     "static/js/787.6606bfd5.chunk.js": "/landing-page/static/js/787.6606bfd5.chunk.js",
     "static/media/pic-girl-snowboard.jpg": "/landing-page/static/media/pic-girl-snowboard.1b60cc9e979bc80c6e03.jpg",
-    "static/media/mountains_illustration.svg": "/landing-page/static/media/mountains_illustration.d6785a2c1e278c7b9a6782cce815119b.svg",
+    "static/media/real-mountains.jpg": "/landing-page/static/media/real-mountains.2dff4822bd79bf403921.jpg",
+    "static/media/mountains_illustration1.svg": "/landing-page/static/media/mountains_illustration1.fda3b5a08a6bbeab0c1d3935094a80f1.svg",
     "static/media/Logo_SD_23.svg": "/landing-page/static/media/Logo_SD_23.8085caa7986ca1e23b9154c6e3234920.svg",
     "static/media/mountains_illustration2.svg": "/landing-page/static/media/mountains_illustration2.13f88c1539446f2c8f4483ce0d3c2443.svg",
     "static/media/white_stars.svg": "/landing-page/static/media/white_stars.ba92e358a37b90ba54ea3e6437462ba2.svg",
     "static/media/blue_stars.svg": "/landing-page/static/media/blue_stars.d1629569aaa2106d1ab8f3e5857b3d6c.svg",
     "static/media/logo.svg": "/landing-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/landing-page/index.html",
-    "main.c7c94224.css.map": "/landing-page/static/css/main.c7c94224.css.map",
-    "main.786d6a54.js.map": "/landing-page/static/js/main.786d6a54.js.map",
+    "main.a439b28f.css.map": "/landing-page/static/css/main.a439b28f.css.map",
+    "main.98eecac7.js.map": "/landing-page/static/js/main.98eecac7.js.map",
     "787.6606bfd5.chunk.js.map": "/landing-page/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7c94224.css",
-    "static/js/main.786d6a54.js"
+    "static/css/main.a439b28f.css",
+    "static/js/main.98eecac7.js"
   ]
 }
