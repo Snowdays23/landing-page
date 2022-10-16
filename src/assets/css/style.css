@@ -90,6 +90,7 @@
     height: 30vh;
     position: relative;
     top: -6vh;  
+    z-index: 1;
 }
 
 .bg-mountains {
