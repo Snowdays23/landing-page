@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landing-page/static/css/main.a439b28f.css",
-    "main.js": "/landing-page/static/js/main.98eecac7.js",
+    "main.js": "/landing-page/static/js/main.0a12b060.js",
     "static/js/787.6606bfd5.chunk.js": "/landing-page/static/js/787.6606bfd5.chunk.js",
     "static/media/pic-girl-snowboard.jpg": "/landing-page/static/media/pic-girl-snowboard.1b60cc9e979bc80c6e03.jpg",
     "static/media/real-mountains.jpg": "/landing-page/static/media/real-mountains.2dff4822bd79bf403921.jpg",
@@ -13,11 +13,11 @@
     "static/media/logo.svg": "/landing-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/landing-page/index.html",
     "main.a439b28f.css.map": "/landing-page/static/css/main.a439b28f.css.map",
-    "main.98eecac7.js.map": "/landing-page/static/js/main.98eecac7.js.map",
+    "main.0a12b060.js.map": "/landing-page/static/js/main.0a12b060.js.map",
     "787.6606bfd5.chunk.js.map": "/landing-page/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a439b28f.css",
-    "static/js/main.98eecac7.js"
+    "static/js/main.0a12b060.js"
   ]
 }
