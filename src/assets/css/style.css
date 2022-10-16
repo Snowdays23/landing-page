@@ -29,6 +29,11 @@
     top: -18vh;
 }
 
+.closer-top {
+    position: relative;
+    top: -25vh;
+}
+
 .wrapper-parallex {
     height: 100%;   
     width: auto;
@@ -107,6 +112,39 @@
 
 .wrapper-outside-body {
     background-color: #fff;
+}
+
+.wrapper-outside-body2 {
+    background-color: #9bb4df;
+}
+
+.blue-bg {
+    background-color: #9bb4df;
+    position : relative;
+    height : 40vh;
+
+    top: -35vh;
+    
+}
+
+.pic-gal {
+    width: 40vw;
+    height: auto;
+}
+
+.offset-up {
+    position: relative;
+    top: -65vh;
+}
+
+.offset-down {
+    position: relative;
+    top: 8vh;
+}
+
+.offset-down2 {
+    position: relative;
+    top: 13vh;
 }
 
 .level-bg {

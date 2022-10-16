@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/header'
 import Body from './components/body'
+import Body2 from './components/body2'
 import "./assets/js/PureSnow.js";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       </div>
       <Header></Header>
       <Body></Body>
+      <Body2></Body2>
     </div>
   );
 }

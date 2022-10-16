@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import snowboardSport from '../assets/img/pic-girl-snowboard.jpg';
 import blueStars from '../assets/img/blue_stars.svg';
 import bgMountains from '../assets/img/mountains_illustration2.svg';
 import "../assets/css/bootstrap.min.css";
