@@ -30,16 +30,30 @@
 }
 
 .wrapper-parallex {
-    width: 110vw;
+    height: 100%;   
+    width: auto;
     position: relative;
-    right: 38vw;
+    right: 40vw;
+    z-index: -1;
+}
+
+.wrapper-mountains {
+    height: 100vh;
+    width: 110vw;
+    z-index:-2;
+    position:fixed;
+    background-image: url("../img/real-mountains.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    right: 0vw;
 }
 
 .real-mountains {
     position: fixed;
-    height: 60vh;
+    height: 100vh;
     width: auto;
-    z-index: -2;
+    z-index: -3;
 }
 
 .white-div {

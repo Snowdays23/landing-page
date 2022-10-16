@@ -3,7 +3,7 @@ import bgMountains from '../assets/img/mountains_illustration1.svg';
 import logoSD23 from '../assets/img/Logo_SD_23.svg';
 import whiteStars from '../assets/img/white_stars.svg';
 import blueStars from '../assets/img/blue_stars.svg';
-import realMountains from '../assets/img/header-min.jpg';
+
 import "../assets/css/style.css";
 import "../assets/css/bootstrap.min.css";
 import "../assets/js/PureSnow.js";
@@ -14,11 +14,7 @@ export default class Header extends Component {
 
             <div className = "wrapper-outside ">
 
-                <div id="snow" className = "row justify-content-center wrapper-parallex ">
-
-                    <img  src = {realMountains} class = "real-mountains" />
-
-                </div>
+                
 
                 <div className = "white-div"></div>
 
