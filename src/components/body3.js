@@ -1,10 +1,20 @@
 import React, { Component } from 'react';
 import bgMountains from '../assets/img/mountains_illustration2.svg';
+import ParticipantTable from './subcomponents/participant-table';
+import ETHLogo from '../assets/img/participantsLogo/ETH_Zurich_Logo.jpg';
+import FAULogo from '../assets/img/participantsLogo/friedrich-alexander-universitaet-fau-logo-b.jpg';
+import FHLogo from '../assets/img/participantsLogo/Fachhochschule_Vorarlberg_logo.svg.png';
+import FrankFurtLogo from '../assets/img/participantsLogo/download.png';
+import HSBALogo from '../assets/img/participantsLogo/institutionlogo27650.png';
+import IUBHLogo from '../assets/img/participantsLogo/Logo-IUBH.svg.png';
+import LUTLogo from '../assets/img/participantsLogo/LUT Logo RGB.jpg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
 import "../assets/css/style.css";
 
 export default class Body3 extends Component {
+
+
     render () {
         return (
 
@@ -20,6 +30,12 @@ export default class Body3 extends Component {
                             <h2 className='h2'>PARTICIPANTS</h2>
                             <h5 className=''>from the last edition</h5>
 
+                            <div className='mt-5 pt-2'>
+                                    <ParticipantTable universities = {[ETHLogo, FAULogo, FHLogo, FrankFurtLogo, HSBALogo,
+                                 IUBHLogo, LUTLogo]}></ParticipantTable>
+
+                            </div>
+                            
                         </div>
 
                     </div>      

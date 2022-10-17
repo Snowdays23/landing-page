@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import skiGuy from '../assets/img/08-14.28_JAC_1800.jpg';
-import pool from '../assets/img/07-20.34__MG_5258.jpg';
-import ballField from '../assets/img/07-19.37_ROB_0924.jpg';
-import volleyball from '../assets/img/09-14.49_ISE_045.jpg';
-import gameSnow from '../assets/img/09-14.02_JAC_2245.jpg';
+import skiGuy from '../assets/img/previousImg/08-14.28_JAC_1800.jpg';
+import pool from '../assets/img/previousImg/07-20.34__MG_5258.jpg';
+import ballField from '../assets/img/previousImg/07-19.37_ROB_0924.jpg';
+import volleyball from '../assets/img/previousImg/09-14.49_ISE_045.jpg';
+import gameSnow from '../assets/img/previousImg/09-14.02_JAC_2245.jpg';
+import party from '../assets/img/previousImg/08-00.13_ROB_1337.jpg';
 import whiteStars from '../assets/img/white_stars.svg';
-import party from '../assets/img/08-00.13_ROB_1337.jpg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
 import "../assets/css/style.css";
