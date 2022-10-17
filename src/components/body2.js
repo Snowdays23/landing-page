@@ -4,6 +4,7 @@ import pool from '../assets/img/07-20.34__MG_5258.jpg';
 import ballField from '../assets/img/07-19.37_ROB_0924.jpg';
 import volleyball from '../assets/img/09-14.49_ISE_045.jpg';
 import gameSnow from '../assets/img/09-14.02_JAC_2245.jpg';
+import whiteStars from '../assets/img/white_stars.svg';
 import party from '../assets/img/08-00.13_ROB_1337.jpg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
@@ -56,6 +57,8 @@ export default class Body2 extends Component {
 
                     </div>
 
+                    <img src={whiteStars} id = "white-stars2"/>
+
                     <div className='row justify-content-center offset-down2'>
                         <div className='col-10'>
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -82,6 +85,9 @@ export default class Body2 extends Component {
                         </div>
 
                     </div>
+
+
+                    <img src={whiteStars} id = "white-stars3"/>
 
                 </div>
 
