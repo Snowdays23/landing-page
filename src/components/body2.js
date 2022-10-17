@@ -88,6 +88,16 @@ export default class Body2 extends Component {
 
 
                     <img src={whiteStars} id = "white-stars3"/>
+                    
+                    <div className='row justify-content-center wrapper-text offset-down3' >
+
+                        <div className='col-10'>
+
+                            <p className='text-white'>There are many ways to have fun in Snowdays23! There will be Skiing, Snowboarding, Snow-Volleyball, Swimming & many ohter Snow-Games!</p>
+
+                        </div>
+
+                     </div>
 
                 </div>
 
