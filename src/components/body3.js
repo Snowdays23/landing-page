@@ -10,6 +10,21 @@ export default class Body3 extends Component {
 
             <div className = " wrapper-outside-body ">
                 <img src={bgMountains} id="mountains-illustration2" />
+
+                <div className='offset-up2'>
+
+                    <div className='row justify-content-center wrapper-title-sport' >
+
+                        <div className='col-10'>
+
+                            <h2 className='h2'>PARTICIPANTS</h2>
+                            <h5 className=''>from the last edition</h5>
+
+                        </div>
+
+                    </div>      
+
+                </div>
                 
             </div>
             

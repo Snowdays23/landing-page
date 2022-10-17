@@ -157,6 +157,11 @@
     top: -65vh;
 }
 
+.offset-up2 {
+    position: relative;
+    top: -14vh;
+}
+
 .offset-down {
     position: relative;
     top: 8vh;
