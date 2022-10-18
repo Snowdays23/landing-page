@@ -29,6 +29,14 @@
     top: -18vh;
 }
 
+#mountains-illustration3 {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    top: 70vh;
+}
+
 #mountains-illustration2_white {
     width: 100vw;
     height: auto;
@@ -160,6 +168,13 @@
     height: 10vh;
 }
 
+.wrapper-outside-body4 {
+    background-color: #9bb4df;
+height: 40vh;
+
+
+}
+
 .blue-bg {
     background-color: #9bb4df;
     position : relative;
@@ -204,6 +219,13 @@
     position: relative;
     top: 17vh;
     z-index: 2;
+}
+
+.offset-down4 {
+
+    position: relative;
+    top: 52vh;
+    z-index: 1;
 }
 
 .level-bg {
