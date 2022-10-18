@@ -28,6 +28,24 @@
     z-index: 1;
     top: -18vh;
 }
+
+#mountains-illustration2_white {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    z-index: 0;
+    top: -20vh;
+}
+
+#mountains-illustration2_white2 {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    z-index: 0;
+    top: -18vh;
+}
+
+
 #white-stars2 {
     width: 8vw;
     height: auto;
@@ -138,6 +156,10 @@
     height: 90vh;
 }
 
+.wrapper-outside-body3 {
+    height: 10vh;
+}
+
 .blue-bg {
     background-color: #9bb4df;
     position : relative;
@@ -160,6 +182,11 @@
 .offset-up2 {
     position: relative;
     top: -14vh;
+}
+
+.offset-up3 {
+    position: relative;
+    top: -35vh;
 }
 
 .offset-down {

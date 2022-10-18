@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import bgMountains from '../assets/img/mountains_illustration2.svg';
-import ParticipantTable from './subcomponents/participant-table';
+import LogosTable from './subcomponents/logos-table';
 import ETHLogo from '../assets/img/participantsLogo/ETH_Zurich_Logo.jpg';
 import FAULogo from '../assets/img/participantsLogo/friedrich-alexander-universitaet-fau-logo-b.jpg';
 import FHLogo from '../assets/img/participantsLogo/Fachhochschule_Vorarlberg_logo.svg.png';
@@ -31,8 +31,8 @@ export default class Body3 extends Component {
                             <h5 className=''>from the last edition</h5>
 
                             <div className='mt-5 pt-2'>
-                                    <ParticipantTable universities = {[ETHLogo, FAULogo, FHLogo, FrankFurtLogo, HSBALogo,
-                                 IUBHLogo, LUTLogo]}></ParticipantTable>
+                                    <LogosTable logos = {[ETHLogo, FAULogo, FHLogo, FrankFurtLogo, HSBALogo,
+                                 IUBHLogo, LUTLogo]}></LogosTable>
 
                             </div>
                             
@@ -42,6 +42,7 @@ export default class Body3 extends Component {
 
                 </div>
                 
+
             </div>
             
         )

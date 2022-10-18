@@ -3,7 +3,7 @@ import "../../assets/css/bootstrap.min.css";
 import "../../assets/css/bootstrap-override.css";
 import "../../assets/css/style.css";
 
-function Participant ({img}) {
+function Logo ({img}) {
 
         return (
 
@@ -17,4 +17,4 @@ function Participant ({img}) {
     
 }
 
-export default Participant;
+export default Logo;

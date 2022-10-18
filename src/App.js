@@ -4,6 +4,7 @@ import Header from './components/header'
 import Body from './components/body'
 import Body2 from './components/body2'
 import Body3 from './components/body3'
+import Body4 from './components/body4';
 import "./assets/js/PureSnow.js";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Body></Body>
       <Body2></Body2>
       <Body3></Body3>
+      <Body4></Body4>
     </div>
   );
 }

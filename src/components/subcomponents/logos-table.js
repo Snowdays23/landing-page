@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import Participant from './participant';
+import Logo from './logo';
 import "../../assets/css/bootstrap.min.css";
 import "../../assets/css/bootstrap-override.css";
 import "../../assets/css/style.css";
 
-function ParticipantTable ({universities}) {
+function LogosTable ({logos}) {
 
-        const table = universities.map((university) => (
-                <Participant img = {university} >
-                </Participant>)); 
+        const table = logos.map((logo) => (
+                <Logo img = {logo} >
+                </Logo>)); 
 
         return (
 
@@ -27,4 +27,4 @@ function ParticipantTable ({universities}) {
         )
 }
 
-export default ParticipantTable;
+export default LogosTable;
