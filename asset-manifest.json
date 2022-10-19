@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.76fac9bd.css",
-    "main.js": "/landing-page/static/js/main.c7103fdc.js",
+    "main.css": "/landing-page/static/css/main.d8d0ce67.css",
+    "main.js": "/landing-page/static/js/main.8cc79217.js",
     "static/js/787.6606bfd5.chunk.js": "/landing-page/static/js/787.6606bfd5.chunk.js",
     "static/media/09-14.49_ISE_045.jpg": "/landing-page/static/media/09-14.49_ISE_045.ffba52bd60d1cfa91042.jpg",
     "static/media/09-14.02_JAC_2245.jpg": "/landing-page/static/media/09-14.02_JAC_2245.e6d5528511516d84c2b1.jpg",
@@ -15,20 +15,25 @@
     "static/media/08-00.13_ROB_1337.jpg": "/landing-page/static/media/08-00.13_ROB_1337.1a167bedd4c0b10ff2d2.jpg",
     "static/media/institutionlogo27650.png": "/landing-page/static/media/institutionlogo27650.4ab32babfb5992af5c7a.png",
     "static/media/Logo-IUBH.svg.png": "/landing-page/static/media/Logo-IUBH.svg.53e9e8108f9760572455.png",
+    "static/media/subway.png": "/landing-page/static/media/subway.3a4daf0950bd4616fb05.png",
     "static/media/Fachhochschule_Vorarlberg_logo.svg.png": "/landing-page/static/media/Fachhochschule_Vorarlberg_logo.svg.441b27c6a23f7879856c.png",
+    "static/media/loacker.png": "/landing-page/static/media/loacker.d00707d3105ffea33de6.png",
     "static/media/mountains_illustration1.svg": "/landing-page/static/media/mountains_illustration1.fda3b5a08a6bbeab0c1d3935094a80f1.svg",
+    "static/media/decathlon.png": "/landing-page/static/media/decathlon.65b39cd2eacde663ee77.png",
+    "static/media/clipper.png": "/landing-page/static/media/clipper.baece586ff5927d116d6.png",
     "static/media/Logo_SD_23.svg": "/landing-page/static/media/Logo_SD_23.8085caa7986ca1e23b9154c6e3234920.svg",
     "static/media/mountains_illustration2.svg": "/landing-page/static/media/mountains_illustration2.13f88c1539446f2c8f4483ce0d3c2443.svg",
+    "static/media/mountains_illustration2_white.svg": "/landing-page/static/media/mountains_illustration2_white.1229eabb43e03453dd5bea30ea5265da.svg",
     "static/media/white_stars.svg": "/landing-page/static/media/white_stars.ba92e358a37b90ba54ea3e6437462ba2.svg",
     "static/media/blue_stars.svg": "/landing-page/static/media/blue_stars.d1629569aaa2106d1ab8f3e5857b3d6c.svg",
     "static/media/logo.svg": "/landing-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/landing-page/index.html",
-    "main.76fac9bd.css.map": "/landing-page/static/css/main.76fac9bd.css.map",
-    "main.c7103fdc.js.map": "/landing-page/static/js/main.c7103fdc.js.map",
+    "main.d8d0ce67.css.map": "/landing-page/static/css/main.d8d0ce67.css.map",
+    "main.8cc79217.js.map": "/landing-page/static/js/main.8cc79217.js.map",
     "787.6606bfd5.chunk.js.map": "/landing-page/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76fac9bd.css",
-    "static/js/main.c7103fdc.js"
+    "static/css/main.d8d0ce67.css",
+    "static/js/main.8cc79217.js"
   ]
 }
