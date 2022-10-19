@@ -34,7 +34,7 @@
     height: auto;
     position: relative;
     z-index: 1;
-    top: 70vh;
+    top: -50vh;
 }
 
 #mountains-illustration2_white {
@@ -165,13 +165,16 @@
 }
 
 .wrapper-outside-body3 {
-    height: 10vh;
+    height: 40vh
 }
 
 .wrapper-outside-body4 {
-    background-color: #9bb4df;
-height: 40vh;
-
+    background-color: #9bb4df;  
+    position: relative;
+    top: -70vh;
+    padding-top: 20vh;
+    padding-bottom: 0vh;
+    z-index: 1;
 
 }
 
@@ -284,3 +287,8 @@ height: 40vh;
     left: -36vw;
 }
 
+.wrapper-contact-title {
+
+    position: relative;
+    z-index: 2;
+}

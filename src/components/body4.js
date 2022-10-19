@@ -5,6 +5,7 @@ import clipper from '../assets/img/sponsorsLogo/clipper.png';
 import decathlon from '../assets/img/sponsorsLogo/decathlon.png';
 import loacker from '../assets/img/sponsorsLogo/loacker.png';
 import subway from '../assets/img/sponsorsLogo/subway.png';
+import bgMountains from '../assets/img/mountains_illustration2.svg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
 import "../assets/css/style.css";
@@ -18,11 +19,10 @@ export default class Body4 extends Component {
             <div className='wrapper-outside-body3'>
                 
                 <img src={bgMountains2} id="mountains-illustration2_white" />   
-
                 
                 <img src={bgMountains2} id="mountains-illustration2_white2" />   
 
-                <div className='wrapper-outside-body offset-up3 pt-5'>
+                <div className='wrapper-outside-body offset-up3 pt-5 pb-5'>
 
                     <div className='row justify-content-center wrapper-title-sport pt-5 offset-up2' >
 
@@ -40,6 +40,36 @@ export default class Body4 extends Component {
                     </div>
 
                 </div>
+
+                <img src={bgMountains} id="mountains-illustration3" />
+
+                <div className='wrapper-outside-body4 '>
+                
+                    <div className='row justify-content-center offset-up2 wrapper-contact-title' >
+
+                        <div className='col-10'>
+
+                            <h2 className='text-white'>CONTACT INFORMATION</h2>
+
+                        </div>
+
+                    </div> 
+
+                    <div className='row justify-content-center wrapper-text ' >
+
+                        <div className='col-10'>
+
+                            <p className='text-white'>
+                                You can send a message at any time to any of our social media or you can send an email at info@snowdays.it
+                            </p>
+
+                        </div>
+
+                     </div>
+
+                    <img src={bgMountains}/>     
+
+                </div>           
 
 
             </div>
