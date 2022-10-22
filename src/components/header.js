@@ -48,7 +48,7 @@ export default class Header extends Component {
 
                         <div className='col-6 mt-3'>
 
-                            <h1 className='font-weight-bold subtitle'>SAVE THE DATE FEBRUARY 2023</h1>
+                            <h1 className='font-weight-bold subtitle font-poppins'>SAVE THE DATE FEBRUARY 2023</h1>
             
                         </div>
                         

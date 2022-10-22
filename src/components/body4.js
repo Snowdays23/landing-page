@@ -28,8 +28,8 @@ export default class Body4 extends Component {
 
                         <div className='col-10'>
 
-                            <h2 className='h2'>SPONSORS</h2>
-                            <h5 className=''>from the last edition</h5>
+                            <h2 className='h2 font-josefin '>SPONSORS</h2>
+                            <h5 className='font-josefin '>from the last edition</h5>
 
                             <div className='mt-5 pt-2'>
                                     <LogosTable logos = {[clipper, decathlon, loacker, subway]}></LogosTable>
@@ -49,7 +49,7 @@ export default class Body4 extends Component {
 
                         <div className='col-10'>
 
-                            <h2 className='text-white'>CONTACT INFORMATION</h2>
+                            <h2 className='text-white font-josefin '>CONTACT INFORMATION</h2>
 
                         </div>
 
@@ -59,7 +59,7 @@ export default class Body4 extends Component {
 
                         <div className='col-10'>
 
-                            <p className='text-white'>
+                            <p className='text-white font-poppins'>
                                 You can send a message at any time to any of our social media or you can send an email at info@snowdays.it
                             </p>
 

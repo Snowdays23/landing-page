@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "JosefineSans";
+    src: url("../fonts/JOSEFIN_SANS/JosefinSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/POPPINS/Poppins-Light.otf");
+}
+
+
 #blue-stars-reversed {
     width: 10vw;
     height: auto;
@@ -72,6 +83,15 @@
     -webkit-filter: drop-shadow(0px 0px 9px #304f9e);
     transform: rotateY(180deg); 
     z-index: 2;
+}
+
+.font-josefin {
+    font-family: 'JosefineSans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.font-poppins {
+    font-family: 'Poppins', Arial, sans-serif;
 }
 
 .closer-top {
