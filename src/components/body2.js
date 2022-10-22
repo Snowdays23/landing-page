@@ -21,7 +21,7 @@ export default class Body2 extends Component {
 
                         <div className='col-10'>
 
-                            <h2 className='text-white'>SPORTS & OPPORTUNITIES</h2>
+                            <h2 className='text-white font-josefin'>SPORTS & OPPORTUNITIES</h2>
 
                         </div>
 
@@ -58,7 +58,7 @@ export default class Body2 extends Component {
 
                         <div className='col-10'>
 
-                            <p className='text-white'>There are many ways to have fun in Snowdays23! There will be Skiing, Snowboarding, Snow-Volleyball, Swimming & many ohter Snow-Games!</p>
+                            <p className='text-white font-poppins'>There are many ways to have fun in Snowdays23! There will be Skiing, Snowboarding, Snow-Volleyball, Swimming & many ohter Snow-Games!</p>
 
                         </div>
 

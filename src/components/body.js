@@ -17,7 +17,7 @@ export default class Body extends Component {
 
                     <div className='col-10'>
 
-                        <p className=''>We are more than thrilled to announce the comeback of the biggest winter sports event in all of Europe</p>
+                        <p className='font-poppins'>We are more than thrilled to announce the comeback of the biggest winter sports event in all of Europe</p>
 
                     </div>
 

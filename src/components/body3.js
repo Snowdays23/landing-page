@@ -27,8 +27,8 @@ export default class Body3 extends Component {
 
                         <div className='col-10'>
 
-                            <h2 className='h2'>PARTICIPANTS</h2>
-                            <h5 className=''>from the last edition</h5>
+                            <h2 className='h2 font-josefin '>PARTICIPANTS</h2>
+                            <h5 className='font-josefin'>from the last edition</h5>
 
                             <div className='mt-5 pt-2'>
                                     <LogosTable logos = {[ETHLogo, FAULogo, FHLogo, FrankFurtLogo, HSBALogo,
