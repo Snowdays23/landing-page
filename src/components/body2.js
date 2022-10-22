@@ -54,7 +54,7 @@ export default class Body2 extends Component {
 
                     <img src={whiteStars} id = "white-stars3"/>
                     
-                    <div className='row justify-content-center wrapper-text offset-down3' >
+                    <div className='row justify-content-center wrapper-text offset-down3 mb-3' >
 
                         <div className='col-10'>
 
