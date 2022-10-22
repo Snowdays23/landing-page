@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import skiGuy from '../assets/img/previousImg/08-14.28_JAC_1800.jpg';
 import pool from '../assets/img/previousImg/07-20.34__MG_5258.jpg';
-import ballField from '../assets/img/previousImg/07-19.37_ROB_0924.jpg';
-import volleyball from '../assets/img/previousImg/09-14.49_ISE_045.jpg';
-import gameSnow from '../assets/img/previousImg/09-14.02_JAC_2245.jpg';
-import party from '../assets/img/previousImg/08-00.13_ROB_1337.jpg';
 import whiteStars from '../assets/img/white_stars.svg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
 import "../assets/css/style.css";
+import "../assets/js/Carousel.js";
 
 export default class Body2 extends Component {
     render () {
@@ -30,57 +27,25 @@ export default class Body2 extends Component {
 
                     </div>              
 
-                    <div className='row justify-content-center offset-down '>
+                    
+                    <div className='row justify-content-center offset-down'>
                         <div className='col-10'>
-                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" src={skiGuy} alt="First slide"/>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src={ballField} alt="Second slide"/>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src={gameSnow} alt="Third slide"/>
-                                    </div>
+                            <div id="carouselExampleControls" class="carousel">
+                                <div className='slide'>
+                                    <img name="carouselImage" src={skiGuy} class="slide" alt=""/>
                                 </div>
-                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
                             </div>
                         </div>
-
                     </div>
 
                     <img src={whiteStars} id = "white-stars2"/>
 
                     <div className='row justify-content-center offset-down2'>
                         <div className='col-10'>
-                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" src={pool} alt="First slide"/>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src={volleyball} alt="Second slide"/>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src={party} alt="Third slide"/>
-                                    </div>
+                            <div id="carouselExampleControls" class="carousel">
+                                <div className='slide'>
+                                    <img name="carouselImage2" src={pool} class="slide" alt=""/>
                                 </div>
-                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
                             </div>
                         </div>
 
