@@ -161,7 +161,7 @@
 
 .wrapper-outside-body2 {
     background-color: #9bb4df;
-    height: 90vh;
+    height: 700px;
 }
 
 .wrapper-outside-body3 {
@@ -291,4 +291,10 @@
 
     position: relative;
     z-index: 2;
+}
+
+.slide img{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
 }
