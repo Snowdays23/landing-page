@@ -108,14 +108,15 @@
 }
 
 .wrapper-mountains {
-    height: 100vh;
-    width: 110vw;
     z-index:-2;
     position:fixed;
     background-image: url("../img/real-mountains.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-
+    object-fit: cover;
+    width: 120%;
+    height: 120%;
+    top: -10vh;
     right: 0vw;
 }
 
@@ -126,12 +127,6 @@
     z-index: -3;
 }
 
-.white-div {
-    background-color: #fff;
-    height: 10vh;
-    z-index: -1;
-    position: relative
-}
 
 .white-div2 {
     background-color: #fff;
@@ -225,6 +220,21 @@
 .offset-up3 {
     position: relative;
     top: -35vh;
+}
+
+.offset-up4 {
+    position: relative;
+    top: -15vh;
+}
+
+.offset-up5 {
+    position: relative;
+    top: -10vh;
+}
+
+.overlay {
+    position: relative;
+    z-index: 2;
 }
 
 .offset-down {

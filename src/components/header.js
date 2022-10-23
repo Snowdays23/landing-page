@@ -14,13 +14,10 @@ export default class Header extends Component {
 
             <div className = "wrapper-outside ">
 
-
-                <div className = "white-div"></div>
-
-
-                <div className = "level-bg ">
+                <div className = "level-bg  ">
+                <div className='white-div2 offset-up5'></div>
                     
-                    <div className='row justify-content-center mt-5 pb-5'>
+                    <div className='row justify-content-center mt-3 pb-5 offset-up4'>
 
                         <div className='col-12'>
 
@@ -32,9 +29,9 @@ export default class Header extends Component {
 
                 </div>
 
-                <div className='container level-main'>
+                <div className='container level-main offset-down2'>
 
-                    <div className='row justify-content-center mt-5 pb-4'>
+                    <div className='row justify-content-center mt-5 pb-4 offset-down2'>
 
                         <div className=''>
 
@@ -44,7 +41,7 @@ export default class Header extends Component {
                         
                     </div>                
 
-                    <div className='row justify-content-center mt-4'>
+                    <div className='row justify-content-center mt-4 offset-down2'>
 
                         <div className='col-6 mt-3'>
 
@@ -54,15 +51,20 @@ export default class Header extends Component {
                         
                     </div>
 
-                    <img src={whiteStars} className = "white-stars"/>
+                    <div className = "offset-down2">
+                        <img src={whiteStars} className = "white-stars offset-down2"/>
+                    </div>
+
+                    
 
                     <br/>
                     
-                    <img src={blueStars} className = "blue-stars"/>
+                    <div className = "offset-down2">
+                        <img src={blueStars} className = "blue-stars offset-down2"/>
+                    </div>
 
                 </div>
 
-                <div className = "white-div2"></div>
 
             </div>
             

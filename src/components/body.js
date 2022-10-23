@@ -9,11 +9,12 @@ export default class Body extends Component {
     render () {
         return (
 
-            <div className = "wrapper-outside-body  ">
+            <div className = "wrapper-outside-body mt-5">
 
-                <div className = "white-div3"></div>
-
-                <div className='row justify-content-center wrapper-text' >
+                <div className = "white-div3 mt-5"></div>
+                <div className = "white-div3 mt-1"></div>
+ 
+                <div className='row justify-content-center wrapper-text mt-3 mb-5 overlay' >
 
                     <div className='col-10'>
 
