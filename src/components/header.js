@@ -55,8 +55,8 @@ export default class Header extends Component {
 
                     <br/>
                     
-                    <div className = "offset-down2">
-                        <img src={blueStars} className = "blue-stars offset-down2"/>
+                    <div className = "row justify-content-center relative offset-down-5 offset-left-30">
+                        <img src={blueStars} id="blue-stars1" className = "white-shadow"/>
                     </div>
 
                 </div>
