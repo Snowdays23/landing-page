@@ -7,5 +7,5 @@
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,.show>
 .btn-primary.dropdown-toggle:focus{box-shadow:0 0 0 .2rem #304f9e}
-
-    
+.pb-10,.py-10{padding-bottom:6rem!important}
+.pb-15,.py-15{padding-bottom:9rem!important}

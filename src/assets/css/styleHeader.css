@@ -51,6 +51,11 @@
     top: -10vh;
 }
 
+.offset-up-15 {
+    top: -15vh;
+}
+
+
 .offset-up-px-150 {
     top: -150px;
 }
@@ -96,11 +101,9 @@
 #white-stars1 {
     width: 11vw;
     height: auto;
-    z-index: 1;
 }
 
 #blue-stars1 {
     width: 11vw;
     height: auto;
-    z-index: 1;
 }
