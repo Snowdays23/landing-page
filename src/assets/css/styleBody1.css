@@ -1,13 +1,19 @@
-@font-face {
-    font-family: "JosefineSans";
-    src: url("../fonts/JOSEFIN_SANS/JosefinSans-Bold.ttf");
-}
-
-@font-face {
-    font-family: "Poppins";
-    src: url("../fonts/POPPINS/Poppins-Light.otf");
-}
-
 .wrapper-outside-body {
     background-color: #fff;
+}
+
+#yt-video {
+    width: 100vw;
+    height: 28vh;
+}
+
+#mountains-separator1 {
+    transform: rotateX(180deg); 
+    z-index: 0;
+}
+
+#blue-stars2 {
+    transform: rotateY(180deg); 
+    width: 11vw;
+    height: auto;
 }

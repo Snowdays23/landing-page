@@ -11,11 +11,8 @@ export default class Body1 extends Component {
         return (
 
             <div className = "wrapper-outside-body relative offset-up-10">
-
-                <div className = "white-div3 mt-5"></div>
-                <div className = "white-div3 mt-1"></div>
  
-                <div className='row justify-content-center wrapper-text mt-3 mb-5 overlay' >
+                <div className='row justify-content-center mt-5' >
 
                     <div className='col-10'>
 
@@ -25,16 +22,16 @@ export default class Body1 extends Component {
 
                 </div>
 
-                <br/>
-                    
+                <img src={blueStars} id = "blue-stars2" className='absolute overlay-1 offset-down-5 offset-right-0'/>
                 
-                <div className='container mt-3'>
+                <div className='mt-5 overlay-1 relative'>
 
                     <div className='row justify-content-center'>
 
                         <div className='col-12'> 
 
-                            <iframe className = "yt-video"  src="https://www.youtube.com/embed/68TUBKxxVug?autoplay=1&mute=1"
+                            <iframe id= "yt-video"
+                            src="https://www.youtube.com/embed/68TUBKxxVug?autoplay=1&mute=1"
                             title="YouTube video player" frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                             allowfullscreen></iframe>
@@ -45,9 +42,7 @@ export default class Body1 extends Component {
 
                 </div>
 
-                <img src={blueStars} id = "blue-stars-reversed"/>
-
-                <img src={bgMountains} id="mountains-illustration2" />
+                <img src={bgMountains} className = "relative offset-up-px-150" id="mountains-separator1" />
 
 
             </div>
