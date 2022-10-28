@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "JosefineSans";
+    src: url("../fonts/JOSEFIN_SANS/JosefinSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/POPPINS/Poppins-Light.otf");
+}
+
+.wrapper-outside-body {
+    background-color: #fff;
+}

@@ -3,13 +3,14 @@ import blueStars from '../assets/img/blue_stars.svg';
 import bgMountains from '../assets/img/mountains_illustration2.svg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
-import "../assets/css/style.css";
+import "../assets/css/styleBody1.css";
+// import "../assets/css/style.css";
 
-export default class Body extends Component {
+export default class Body1 extends Component {
     render () {
         return (
 
-            <div className = "wrapper-outside-body mt-5">
+            <div className = "wrapper-outside-body relative offset-up-10">
 
                 <div className = "white-div3 mt-5"></div>
                 <div className = "white-div3 mt-1"></div>

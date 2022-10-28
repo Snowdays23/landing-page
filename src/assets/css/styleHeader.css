@@ -39,6 +39,10 @@
     top: 10vh;
 }
 
+.offset-up-5 {
+    top: -5vh;
+}
+
 .offset-up-10 {
     top: -10vh;
 }
