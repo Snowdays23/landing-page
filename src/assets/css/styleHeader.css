@@ -51,6 +51,14 @@
     top: 10vh;
 }
 
+.offset-down-15 {
+    top: 15vh;
+}
+
+.offset-down-20 {
+    top: 20vh;
+}
+
 .offset-up-0 {
     top: 0vh;
 }
@@ -69,6 +77,10 @@
 
 .offset-up-20 {
     top: -20vh;
+}
+
+.offset-up-25 {
+    top: -25vh;
 }
 
 .offset-up-px-150 {
@@ -100,6 +112,10 @@
 }
 .overlay-2{
     z-index: 2;
+}
+
+.full-width {
+    width: 100vw;
 }
 
 #bg-mountains {

@@ -21,14 +21,14 @@ export default class Body3 extends Component {
             <div className = " wrapper-outside-body-blue relative offset-up-15">
                 <img src={bgMountains} className='relative offset-up-15'/>
 
-                <div className='container absolute overlay-1 offset-down-5 wrapper-outside-body-blue pb-10'>
+                <div className='container absolute overlay-1 offset-down-5 wrapper-outside-body-blue pb-15'>
 
                     <div className='row justify-content-center' >
 
                         <div className='col-10'>
 
-                            <h2 className='h2 font-josefin title'>PARTICIPANTS</h2>
-                            <h5 className='font-poppins normal-text'>some of the participating Business Schools & Universities from the past years</h5>
+                            <h2 className='h2 font-josefin title text-white'>PARTICIPANTS</h2>
+                            <h5 className='font-poppins normal-text text-white'>some of the participating Business Schools & Universities from the past years</h5>
 
                             <div className='mt-4'>
                                     <LogosTable logos = {[ETHLogo, FAULogo, FHLogo, FrankFurtLogo, HSBALogo,
