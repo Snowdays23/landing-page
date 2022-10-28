@@ -10,27 +10,27 @@ import IUBHLogo from '../assets/img/participantsLogo/Logo-IUBH.svg.png';
 import LUTLogo from '../assets/img/participantsLogo/LUT Logo RGB.jpg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
-import "../assets/css/style.css";
-
+// import "../assets/css/style.css";
+import "../assets/css/styleBody3.css";
 export default class Body3 extends Component {
 
 
     render () {
         return (
 
-            <div className = " wrapper-outside-body ">
-                <img src={bgMountains} id="mountains-illustration2" />
+            <div className = " wrapper-outside-body-blue relative offset-up-15">
+                <img src={bgMountains} className='relative offset-up-15'/>
 
-                <div className='offset-up2'>
+                <div className='container absolute overlay-1 offset-down-5 wrapper-outside-body-blue pb-10'>
 
-                    <div className='row justify-content-center wrapper-title-sport' >
+                    <div className='row justify-content-center' >
 
                         <div className='col-10'>
 
-                            <h2 className='h2 font-josefin '>PARTICIPANTS</h2>
-                            <h5 className='font-josefin'>from the last edition</h5>
+                            <h2 className='h2 font-josefin title'>PARTICIPANTS</h2>
+                            <h5 className='font-poppins normal-text'>some of the participating Business Schools & Universities from the past years</h5>
 
-                            <div className='mt-5 pt-2'>
+                            <div className='mt-4'>
                                     <LogosTable logos = {[ETHLogo, FAULogo, FHLogo, FrankFurtLogo, HSBALogo,
                                  IUBHLogo, LUTLogo]}></LogosTable>
 
