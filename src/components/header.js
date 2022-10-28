@@ -15,7 +15,6 @@ export default class Header extends Component {
             <div className = "wrapper-outside">
 
                 <div className = "level-bg">
-                    {/* <div className='white-div2 offset-up5'></div> */}
                     
                     <div className='row justify-content-center'>
 
