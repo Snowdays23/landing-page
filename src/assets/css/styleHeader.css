@@ -83,6 +83,15 @@
     top: -25vh;
 }
 
+.offset-up-30 {
+    top: -30vh;
+}
+
+.offset-up-35 {
+    top: -35vh;
+}
+
+
 .offset-up-px-150 {
     top: -150px;
 }

@@ -4,7 +4,6 @@ import pool from '../assets/img/previousImg/07-20.34__MG_5258.jpg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
 // import "../assets/css/style.css";
-import "../assets/css/styleBody4.css";
 
 export default class Body5 extends Component {
 
@@ -12,9 +11,9 @@ export default class Body5 extends Component {
     render () {
         return (
 
-            <div  className='wrapper-outside-body overlay-1 relative offset-down-15 '>
+            <div  className=' relative'>
 
-                <div className='wrapper-outside-body absolute overlay-1 offset-down-10 full-width'>
+                <div className='absolute overlay-1 full-width'>
 
                     <div className='row justify-content-center ' >
 
