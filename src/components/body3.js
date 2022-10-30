@@ -10,7 +10,7 @@ import IUBHLogo from '../assets/img/participantsLogo/Logo-IUBH.svg.png';
 import LUTLogo from '../assets/img/participantsLogo/LUT Logo RGB.jpg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
-// import "../assets/css/style.css";
+import "../assets/css/style.css";
 import "../assets/css/styleBody3.css";
 export default class Body3 extends Component {
 

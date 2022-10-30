@@ -3,3 +3,6 @@
     height: auto;
 }
 
+#bg-mountains-pics {
+    transform: rotateX(180deg); 
+}

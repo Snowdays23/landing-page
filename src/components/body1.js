@@ -4,7 +4,7 @@ import bgMountains from '../assets/img/mountains_illustration2.svg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
 import "../assets/css/styleBody1.css";
-// import "../assets/css/style.css";
+import "../assets/css/style.css";
 
 export default class Body1 extends Component {
     render () {

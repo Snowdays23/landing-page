@@ -5,7 +5,7 @@ import whiteStars from '../assets/img/white_stars.svg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
 import "../assets/css/styleBody2.css";
-// import "../assets/css/style.css";
+import "../assets/css/style.css";
 import "../assets/js/Carousel.js";
 
 export default class Body2 extends Component {

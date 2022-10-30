@@ -3,7 +3,8 @@ import skiGuy from '../assets/img/previousImg/08-14.28_JAC_1800.jpg';
 import pool from '../assets/img/previousImg/07-20.34__MG_5258.jpg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
-// import "../assets/css/style.css";
+import "../assets/css/styleBody5.css";
+import "../assets/css/style.css";
 
 export default class Body5 extends Component {
 
@@ -19,7 +20,7 @@ export default class Body5 extends Component {
 
                         <div className='col-12'>
                             <div className='slide'>
-                                <img name="carouselImage" src={skiGuy} alt=""/>
+                                <img className="imageEvent" name="carouselImage" src={skiGuy} alt=""/>
                             </div>
                         </div>
 
@@ -29,7 +30,7 @@ export default class Body5 extends Component {
 
                         <div className='col-12'>
                             <div className='slide'>
-                                <img name="carouselImage" src={pool} alt=""/>
+                                <img className="imageEvent" name="carouselImage" src={pool} alt=""/>
                             </div>
                         </div>
 
