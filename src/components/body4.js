@@ -4,8 +4,6 @@ import LogosTable from './subcomponents/logos-table';
 import clipper from '../assets/img/sponsorsLogo/clipper.png';
 import decathlon from '../assets/img/sponsorsLogo/decathlon.png';
 import loacker from '../assets/img/sponsorsLogo/loacker.png';
-import subway from '../assets/img/sponsorsLogo/subway.png';
-import bgMountains from '../assets/img/mountains_illustration2.svg';
 import bgEndMountains from '../assets/img/mountains_illustration2_white.svg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";

@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import skiGuy from '../assets/img/previousImg/08-14.28_JAC_1800.jpg';
-import pool from '../assets/img/previousImg/07-20.34__MG_5258.jpg';
 import bgMountains from '../assets/img/mountains_illustration2.svg';
 import LogosTable from './subcomponents/logos-table';
 import clipper from '../assets/img/sponsorsLogo/clipper.png';
