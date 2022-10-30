@@ -9,7 +9,7 @@ import Body5 from './components/body5';
 import Body6 from './components/body6';
 import Separator from './components/subcomponents/separator';
 import bg from "./assets/img/real-mountains.png";
-// import "./assets/js/PureSnow.js";
+import "./assets/js/PureSnow.js";
 
 function App() {
   return (

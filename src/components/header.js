@@ -32,7 +32,7 @@ export default class Header extends Component {
 
                     <div className='row justify-content-center '>
 
-                        <img src={logoSD23} id = "main-logo" className='white-shadow'/>
+                        <img src={logoSD23} id = "main-logo" className='white-shadow-stronger'/>
                         
                     </div>                
 

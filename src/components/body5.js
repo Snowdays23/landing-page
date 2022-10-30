@@ -20,7 +20,7 @@ export default class Body5 extends Component {
 
                         <div className='col-12'>
                             <div className='slide'>
-                                <img className="imageEvent" name="carouselImage" src={skiGuy} alt=""/>
+                                <img className="white-shadow" name="carouselImage" src={skiGuy} alt=""/>
                             </div>
                         </div>
 
@@ -30,7 +30,7 @@ export default class Body5 extends Component {
 
                         <div className='col-12'>
                             <div className='slide'>
-                                <img className="imageEvent" name="carouselImage" src={pool} alt=""/>
+                                <img className="white-shadow" name="carouselImage" src={pool} alt=""/>
                             </div>
                         </div>
 
