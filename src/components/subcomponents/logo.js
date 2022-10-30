@@ -7,9 +7,9 @@ function Logo ({img}) {
 
         return (
 
-            <span className = "p-3 col-3 university-wrapper-logo">
+            <span id="wrapper-logos" className = "p-2 col-3">
 
-                <img src={img} className = " university-logo" />
+                <img src={img} id = "img-logo" />
 
             </span>
             

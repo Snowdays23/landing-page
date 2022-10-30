@@ -1,0 +1,19 @@
+.wrapper-outside-body-blue {
+    background-color: #9bb4df;
+}
+
+
+#img-logo {
+    width: 17vw;
+    height: auto;
+    background-position:center;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+#wrapper-logos {
+    width: 20vw;
+    height: 20vw;
+    overflow: hidden;
+    background-position:center;
+}
