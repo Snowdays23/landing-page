@@ -17,7 +17,7 @@ export default class Body4 extends Component {
     render () {
         return (
 
-            <div  className='wrapper-outside-body overlay-1 relative offset-down-15 pb-5'>
+            <div  className='wrapper-outside-body overlay-1 relative offset-down-15'>
                 
                 <img src={bgMountains2} className="relative offset-up-15" />    
 
