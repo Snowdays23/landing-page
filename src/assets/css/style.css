@@ -35,6 +35,10 @@
     font-size: 4vw;
 }
 
+.offset-down-1 {
+    top: 1vh;
+}
+
 .offset-down-5 {
     top: 5vh;
 }
@@ -53,6 +57,10 @@
 
 .offset-down-25 {
     top: 25vh;
+}
+
+.offset-down-30 {
+    top: 30vh;
 }
 
 .offset-up-0 {

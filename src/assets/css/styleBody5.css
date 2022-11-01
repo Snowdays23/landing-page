@@ -1,0 +1,14 @@
+#light-blue-separator {
+    height: 20vh;
+    width: 100vw;
+    background-color: #a9d3ea;
+}
+
+#bg-mountains-end {
+    width: 150%;
+    height: auto;
+}
+
+#bg-mountains-pics {
+    transform: rotateX(180deg); 
+}
