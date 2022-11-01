@@ -6,7 +6,6 @@ import Body2 from './components/body2'
 import Body3 from './components/body3'
 import Body4 from './components/body4';
 import Body5 from './components/body5';
-import Body6 from './components/body6';
 import Separator from './components/subcomponents/separator';
 import bg from "./assets/img/real-mountains.png";
 import "./assets/js/PureSnow.js";
@@ -25,10 +24,10 @@ function App() {
       <Body3></Body3>
       <Separator number={4}></Separator>
       <Body4></Body4>
-      <Separator number={30}></Separator>
+      <Separator number={15}></Separator>
       <Body5></Body5>
-      <Separator number={70}></Separator>
-      <Body6></Body6>
+      {/* <Separator number={120}></Separator>
+      <Body6></Body6> */}
            
     </div>
   );

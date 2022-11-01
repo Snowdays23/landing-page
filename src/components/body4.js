@@ -5,6 +5,7 @@ import clipper from '../assets/img/sponsorsLogo/clipper.png';
 import decathlon from '../assets/img/sponsorsLogo/decathlon.png';
 import loacker from '../assets/img/sponsorsLogo/loacker.png';
 import bgEndMountains from '../assets/img/mountains_illustration2_white.svg';
+import skiGuy from '../assets/img/previousImg/08-14.28_JAC_1800.jpg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
 import "../assets/css/style.css";
@@ -39,7 +40,14 @@ export default class Body4 extends Component {
 
                 </div>
 
-                <img src={bgEndMountains} className="absolute offset-down-25 offset-right-0" />  
+                
+                <div className='row justify-content-center'>
+                        <div className='col-12'>
+                            <div className='slide'>
+                                <img name="carouselImage" src={skiGuy} alt=""/>
+                            </div>
+                        </div>
+                    </div>
 
 
             </div>
