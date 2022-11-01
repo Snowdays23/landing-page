@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.262abbf2.css",
-    "main.js": "/landing-page/static/js/main.35cbc17b.js",
+    "main.css": "/landing-page/static/css/main.bd4286c4.css",
+    "main.js": "/landing-page/static/js/main.eb8c5079.js",
     "static/js/787.6606bfd5.chunk.js": "/landing-page/static/js/787.6606bfd5.chunk.js",
     "static/media/real-mountains.png": "/landing-page/static/media/real-mountains.5e606d11210a8da6a66a.png",
     "static/media/08-14.28_JAC_1800.jpg": "/landing-page/static/media/08-14.28_JAC_1800.3d53d9ec24412e813519.jpg",
@@ -21,16 +21,20 @@
     "static/media/Logo_SD_23.svg": "/landing-page/static/media/Logo_SD_23.8085caa7986ca1e23b9154c6e3234920.svg",
     "static/media/mountains_illustration2.svg": "/landing-page/static/media/mountains_illustration2.13f88c1539446f2c8f4483ce0d3c2443.svg",
     "static/media/mountains_illustration2_white.svg": "/landing-page/static/media/mountains_illustration2_white.1229eabb43e03453dd5bea30ea5265da.svg",
+    "static/media/mountains_illustration3.svg": "/landing-page/static/media/mountains_illustration3.5bfabf02bc2bbb28142ead36db15e6af.svg",
     "static/media/white_stars.svg": "/landing-page/static/media/white_stars.ba92e358a37b90ba54ea3e6437462ba2.svg",
     "static/media/blue_stars.svg": "/landing-page/static/media/blue_stars.d1629569aaa2106d1ab8f3e5857b3d6c.svg",
     "static/media/logo.svg": "/landing-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/instagram.svg": "/landing-page/static/media/instagram.0871e32f2e05b707228a81782545cc1b.svg",
+    "static/media/youtube.svg": "/landing-page/static/media/youtube.64485680493bedfc2e1a2f634e48093e.svg",
     "index.html": "/landing-page/index.html",
-    "main.262abbf2.css.map": "/landing-page/static/css/main.262abbf2.css.map",
-    "main.35cbc17b.js.map": "/landing-page/static/js/main.35cbc17b.js.map",
+    "static/media/facebook.svg": "/landing-page/static/media/facebook.90a147941772af92dc8b8a8d7a96561d.svg",
+    "main.bd4286c4.css.map": "/landing-page/static/css/main.bd4286c4.css.map",
+    "main.eb8c5079.js.map": "/landing-page/static/js/main.eb8c5079.js.map",
     "787.6606bfd5.chunk.js.map": "/landing-page/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.262abbf2.css",
-    "static/js/main.35cbc17b.js"
+    "static/css/main.bd4286c4.css",
+    "static/js/main.eb8c5079.js"
   ]
 }
