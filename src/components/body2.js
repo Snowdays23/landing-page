@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FlippingImageCard from './subcomponents/flipping-image-card';
 import skiGuy from '../assets/img/previousImg/08-14.28_JAC_1800.jpg';
 import pool from '../assets/img/previousImg/07-20.34__MG_5258.jpg';
 import whiteStars from '../assets/img/white_stars.svg';
@@ -25,8 +26,16 @@ export default class Body2 extends Component {
 
                     </div>              
 
+
+                    <div class="flipping-image-card-wrapper mx-2 my-4 p-2">
+                        <FlippingImageCard
+                            imgFront={skiGuy} 
+                            imgBack={pool} 
+                            textFront="Didascalia fronte carta prova" 
+                            textBack="Didascalia retro carta prova"/>
+                    </div>
                     
-                    <div className='row justify-content-center'>
+                    {/* <div className='row justify-content-center'>
                         <div className='col-10'>
                             <div className='slide'>
                                 <img name="carouselImage" src={skiGuy} alt=""/>
@@ -40,7 +49,9 @@ export default class Body2 extends Component {
                                 <img name="carouselImage2" src={pool} class="slide" alt=""/>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+
+
 
                 </div>
 

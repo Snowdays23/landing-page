@@ -13,8 +13,7 @@ import "../assets/css/style.css";
 import ButtonsTable from './subcomponents/buttons-table';
 
 export default class Body5 extends Component {
-
-
+    
     render () {
         return (
 
