@@ -17,3 +17,9 @@
     width: 11vw;
     height: auto;
 }
+
+#blue-separator {
+    height: 50vw;
+    width: 100vw;
+    background-color: #9bb4df;
+}

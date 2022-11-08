@@ -16,7 +16,7 @@ export default class Body1 extends Component {
 
                     <div className='col-10'>
 
-                        <p className='font-poppins normal-text'>We are more than thrilled to announce the comeback of the biggest winter sports event in all of Europe</p>
+                        <p className='font-josefin normal-text'>We are more than thrilled to announce the comeback of the biggest winter sports event in all of Europe</p>
 
                     </div>
 
@@ -42,7 +42,23 @@ export default class Body1 extends Component {
 
                 </div>
 
+                <div className='row justify-content-center relative overlay-1 mt-5' >
+
+                        <div className='col-10'>
+
+                            {/* <h2 className='title font-josefin text-white '>MORE IMPRESSIONS</h2> */}
+                            <h5 className='font-poppins normal-text text-white ' >
+                                Year after year, the event grew steadily and now, after more than 10 years, participants are more than 750 and they comed from the best universities in Europe.
+                            </h5>
+
+                        </div>
+
+                </div>
+
+
+                <div className='absolute offset-down-40' id="blue-separator"></div>
                 <img src={bgMountains} className = "relative offset-up-px-150" id="mountains-separator1" />
+
 
 
             </div>
