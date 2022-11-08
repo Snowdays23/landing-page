@@ -36,67 +36,67 @@
 }
 
 .offset-down-1 {
-    top: 1vh;
+    top: 2vw;
 }
 
 .offset-down-5 {
-    top: 5vh;
+    top: 10vw;
 }
 
 .offset-down-10 {
-    top: 10vh;
+    top: 20vw;;
 }
 
 .offset-down-15 {
-    top: 15vh;
+    top: 31vw;
 }
 
 .offset-down-20 {
-    top: 20vh;
+    top: 45vw;
 }
 
 .offset-down-25 {
-    top: 25vh;
+    top: 58vw;
 }
 
 .offset-down-30 {
-    top: 30vh;
+    top: 70vw;
 }
 
 .offset-down-40 {
-    top: 40vh;
+    top: 85vw;
 }
 
 .offset-up-0 {
-    top: 0vh;
+    top: 0;
 }
 
 .offset-up-5 {
-    top: -5vh;
+    top: -9vw;
 }
 
 .offset-up-10 {
-    top: -10vh;
+    top: -23vw;
 }
 
 .offset-up-15 {
-    top: -15vh;
+    top: -25vw;
 }
 
 .offset-up-20 {
-    top: -20vh;
+    top: -38vw;
 }
 
 .offset-up-25 {
-    top: -25vh;
+    top: -60vw;
 }
 
 .offset-up-30 {
-    top: -30vh;
+    top: -70vw;
 }
 
 .offset-up-35 {
-    top: -35vh;
+    top: -80vw;
 }
 
 
