@@ -53,7 +53,7 @@ export default class Body5 extends Component {
 
                                 <div className='col-10'>
 
-                                    <h2 className='text-blue font-josefin title'>"THERE ARE NO DAYS LIKE SNOWDAYS"</h2>
+                                    <h2 className='text-blue font-josefin title'>''THERE ARE NO DAYS LIKE SNOWDAYS''</h2>
 
                                 </div>
 
@@ -76,7 +76,7 @@ export default class Body5 extends Component {
 
                                     </div>    
 
-                                    <div className=' row justify-content-center offset-down-10 mt-5'>
+                                    <div className=' row justify-content-center offset-down-10 mt-5 pt-5'> 
 
                                         <ButtonsTable buttons = {[instagram, youtube, facebook]} links = {["https://www.instagram.com/snowdays.bolzano/","https://www.youtube.com/channel/UCthdDzE2fTo47z26YIDDf-g","https://www.facebook.com/Snowdays.Bolzano/"]}></ButtonsTable>
                                     </div>
