@@ -21,7 +21,7 @@ export default class Body4 extends Component {
                 
                 <img src={bgMountains2} className="relative offset-up-15" />    
 
-                <div className='wrapper-outside-body absolute overlay-1 offset-down-10'>
+                <div className='wrapper-outside-body absolute overlay-1 offset-down-10 mb-5'>
 
                     <div className='row justify-content-center' >
 
@@ -40,8 +40,7 @@ export default class Body4 extends Component {
 
                 </div>
 
-                
-                <div className='row justify-content-center'>
+                <div className='row justify-content-center mt-5'>
                         <div className='col-12'>
                             <div className='slide'>
                                 <img name="carouselImage" src={skiGuy} alt=""/>

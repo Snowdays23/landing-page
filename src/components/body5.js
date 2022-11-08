@@ -24,7 +24,7 @@ export default class Body5 extends Component {
 
                     <div className='wrapper-outside-body absolute overlay-1 full-width'>
 
-                        <div className='row justify-content-center relative overlay-1 mt-3' >
+                        <div className='row justify-content-center relative overlay-1 mt-5' >
 
                             <div className='col-10'>
 
