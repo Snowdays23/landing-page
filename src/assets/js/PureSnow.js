@@ -1,10 +1,10 @@
-let snowflakes_count = 50;
+let snowflakes_count = 60;
 
-let total = 50;
+let total = 60;
 let base_css = `.snowflake {
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     background: white;
     border-radius: 50%;
     filter: drop-shadow(0 0 10px white);

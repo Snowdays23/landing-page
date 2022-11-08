@@ -46,3 +46,26 @@ html,body
     transform: rotate(360deg);
   }
 }
+
+.wrapper-mountains {
+  z-index:-2;
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  top: -3vh;
+  right: 0vw;
+}
+
+
+.wrapper-mountains img {
+  z-index:-2;
+  position:fixed;
+  background-image: url("/src/assets/img/real-mountains.png");
+  object-fit: cover; 
+  object-position: 50% 30;
+  width: 100%;
+  height: 100%;
+  top: 0vh;
+  right: 0vw;
+}
+
