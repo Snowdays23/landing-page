@@ -20,7 +20,7 @@ export default class Body5 extends Component {
 
             <div>
 
-                <div  className='wrapper-outside-body relative'>
+                <div  className='wrapper-outside-body relative offset-up-15'>
 
                     <div className='wrapper-outside-body absolute overlay-1 full-width'>
 

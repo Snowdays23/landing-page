@@ -56,7 +56,7 @@ export default class Body1 extends Component {
                 </div>
 
 
-                <div className='absolute offset-down-40' id="blue-separator"></div>
+                <div className='absolute offset-down-40 blue-separator-md'></div>
                 <img src={bgMountains} className = "relative offset-up-px-150" id="mountains-separator1" />
 
 

@@ -112,6 +112,10 @@
     right: -30vw;
 }
 
+.offset-left-0 {
+    right: 0;
+}
+
 .offset-left-30 {
     right: 30vw;
 }
@@ -133,4 +137,33 @@
 
 .full-width {
     width: 100vw;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.blue-separator-sm {
+    height: 20vw;
+    width: 100vw;
+    background-color: #9bb4df;
+}
+
+.blue-separator-md {
+    height: 50vw;
+    width: 100vw;
+    background-color: #9bb4df;
+}
+
+.white-separator-sm {
+    height: 20vw;
+    width: 100vw;
+    background-color: #fff;
+}
+
+.white-separator-md {
+    height: 50vw;
+    width: 100vw;
+    background-color: #fff;
 }

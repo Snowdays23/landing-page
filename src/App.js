@@ -23,7 +23,6 @@ function App() {
       <Body2></Body2>
       <Body3></Body3>
       <Body4></Body4>
-      <Separator number={14}></Separator>
       <Body5></Body5>
            
     </div>

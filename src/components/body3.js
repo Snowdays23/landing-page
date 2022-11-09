@@ -18,10 +18,10 @@ export default class Body3 extends Component {
     render () {
         return (
 
-            <div className = " wrapper-outside-body-blue relative offset-up-15">
+            <div className = "wrapper-outside-body-blue relative offset-up-15">
                 <img src={bgMountains} className='relative offset-up-15'/>
 
-                <div className='container absolute overlay-1 offset-down-5 wrapper-outside-body-blue pb-15'>
+                <div className=' absolute overlay-1 offset-down-5 wrapper-outside-body-blue pb-15'>
 
                     <div className='row justify-content-center' >
 
@@ -41,6 +41,14 @@ export default class Body3 extends Component {
                     </div>      
 
                 </div>
+
+                <div className='relative blue-separator-md'></div>
+
+                {/* <div className='row justify-content-center'>
+                    <div className='d-none d-sm-block'>
+                        <div className='relative blue-separator-sm'></div>
+                    </div>
+                </div> */}
                 
 
             </div>

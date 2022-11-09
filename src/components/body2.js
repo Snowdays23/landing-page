@@ -42,6 +42,12 @@ export default class Body2 extends Component {
                         </div>
                     </div>
 
+                    <div className='row justify-content-center'>
+                        <div className='d-none d-sm-block'>
+                            <div className='relative white-separator-sm'></div>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
