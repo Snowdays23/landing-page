@@ -3,6 +3,7 @@ import bgMountains from '../assets/img/mountains_illustration1.svg';
 import logoSD23 from '../assets/img/Logo_SD_23.svg';
 import whiteStars from '../assets/img/white_stars.svg';
 import blueStars from '../assets/img/blue_stars.svg';
+import Separator from './subcomponents/separator';
 import "../assets/css/style.css";
 import "../assets/css/styleHeader.css";
 import "../assets/css/bootstrap.min.css";    
@@ -38,7 +39,13 @@ export default class Header extends Component {
                             
                         </div>                
 
-                        <div className='row justify-content-center mt-5 relative offset-down5'>
+
+                        <Separator number={10} ></Separator>
+                        <div className='d-none d-sm-block'>
+                             <Separator number={10} ></Separator>
+                        </div>
+                        
+                        <div className='row justify-content-center  relative offset-down5'>
 
                             <div className='col-8 mt-5'>
 
