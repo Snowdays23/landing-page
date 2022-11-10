@@ -5,7 +5,7 @@ import "../../assets/css/bootstrap-override.css";
 function Separator ({number}) {
 
     return (
-        <div style={{width: '100vw', height: number + 'vh'}}>
+        <div style={{width: '100vw', height: number + 'vw'}}>
         </div>
     )
     

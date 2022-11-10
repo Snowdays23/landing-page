@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import skiGuy from '../assets/img/previousImg/08-14.28_JAC_1800.jpg';
 import pool from '../assets/img/previousImg/07-20.34__MG_5258.jpg';
 import whiteStars from '../assets/img/white_stars.svg';
+import Separator from './subcomponents/separator';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
 import "../assets/css/styleBody2.css";
@@ -11,9 +12,15 @@ export default class Body2 extends Component {
     render () {
         return (
 
-            <div className = "wrapper-outside-body relative offset-up-15 pb-15">
+            // da rivedere lo spacing qua sopra nelle varie size dello screeen
 
-                <div className = "container">
+            <div className = "wrapper-outside-body relative offset-up-20 pb-15">
+
+                <div className='d-xs-block d-lg-none'>
+                        <Separator number={20} ></Separator>
+                </div>
+
+                <div className = "container relative offset-up-5">
 
                     <div className='row justify-content-center relative offset-up-5' >
 
@@ -27,18 +34,29 @@ export default class Body2 extends Component {
 
                     
                     <div className='row justify-content-center'>
-                        <div className='col-10'>
+                        <div className=' col-lg-5 col-10'>
                             <div className='slide'>
                                 <img name="carouselImage" src={skiGuy} alt=""/>
                             </div>
                         </div>
-                    </div>
+                    
+                        <div class="w-100 d-xs-block d-lg-none "></div>
 
-                    <div className='row justify-content-center mt-5 '>
-                        <div className='col-10'>
+                        <div className='d-xs-block d-lg-none'>
+                             <Separator number={10} ></Separator>
+                        </div>
+                
+
+                        <div className=' col-lg-5 col-10'>
                             <div className='slide'>
                                 <img name="carouselImage2" src={pool} class="slide" alt=""/>
                             </div>
+                        </div>
+                    </div>
+
+                    <div className='row justify-content-center'>
+                        <div className='d-none d-sm-block'>
+                            <div className='relative white-separator-sm'></div>
                         </div>
                     </div>
 

@@ -11,6 +11,7 @@ import "../assets/css/bootstrap-override.css";
 import "../assets/css/styleBody5.css";
 import "../assets/css/style.css";
 import ButtonsTable from './subcomponents/buttons-table';
+import Separator from './subcomponents/separator';
 
 export default class Body5 extends Component {
 
@@ -20,13 +21,24 @@ export default class Body5 extends Component {
 
             <div>
 
-                <div  className='wrapper-outside-body relative'>
+                <div  className='wrapper-outside-body relative offset-up-20'>
 
-                    <div className='wrapper-outside-body absolute overlay-1 full-width'>
+                    <div className='wrapper-outside-body relative overlay-1 full-width'>
 
-                        <div className='row justify-content-center relative overlay-1 mt-5' >
+                        <div className='d-none d-lg-block'>
+                            <div className='relative offset-up-0 light-blue-separator-sm'></div>
+                        </div>
 
-                            <div className='col-10'>
+                        <div className='d-xs-block d-lg-none'>
+                            <div className='relative offset-up-0 light-blue-separator-md'></div>
+                        </div>
+
+                        {/* <div className='relative offset-up-0 light-blue-separator-md '></div> */}
+                        <img src={bgMountains} className = "relative offset-up-1" />
+
+                        <div className=' absolute full-width offset-down-10 offset-right-0 center ' >
+
+                            <div className='col-10 '>
 
                                 <h2 className='title font-josefin text-white '>MORE IMPRESSIONS</h2>
                                 <h5 className='font-poppins normal-text text-white' >from the past years</h5>
@@ -35,23 +47,20 @@ export default class Body5 extends Component {
 
                         </div>
 
-                        <div className='absolute offset-up-0' id="light-blue-separator"></div>
-                        <img src={bgMountains} className = "relative" />
-
                         <div className='row justify-content-center relative offset-up-10' >
                             <div className='col-12'>
-                                <div className='slide'>
+                                <div className='slide2'>
                                     <img name="carouselImage" src={pool} alt=""/>
                                 </div>
                             </div>
 
                         </div>
 
-                        <div className = "">
+                        <div>
 
-                            <div className='row justify-content-center' >
+                            <div className='row justify-content-center relative' >
 
-                                <div className='col-10'>
+                                <div className='col-lg-6 col-10'>
 
                                     <h2 className='text-blue font-josefin title'>''THERE ARE NO DAYS LIKE SNOWDAYS''</h2>
 
@@ -59,40 +68,50 @@ export default class Body5 extends Component {
 
                             </div>  
 
-                            <div className='relative overlay-1'>
+                        </div>
+                    </div>  
 
-                                <img src={bgMountains2} id="bg-mountains-end" className='absolute offset-up-0 offset-right-0'/> 
-                                    
-                                <div className = "container relative offset-down-20">
+                    <div className='relative overlay-1 '>
 
-                                    <div className='row justify-content-center' >
+                        <img src={bgMountains2} id="bg-mountains-end" className='absolute offset-up-0 offset-right-0'/> 
+                            
+                        <div className = "container relative offset-down-20">
 
-                                        <div className='col-10'>
+                            <div className='row justify-content-center' >
 
-                                            <h2 className='text-white font-josefin subtitle'>CONTACT INFORMATION</h2>
-                                            <h5 className='font-poppins normal-text text-white'>info@snowdays.it</h5>
+                                <div className='col-lg-8 col-10'>
 
-                                        </div>
-
-                                    </div>    
-
-                                    <div className=' row justify-content-center offset-down-10 mt-5 pt-5'> 
-
-                                        <ButtonsTable buttons = {[instagram, youtube, facebook]} links = {["https://www.instagram.com/snowdays.bolzano/","https://www.youtube.com/channel/UCthdDzE2fTo47z26YIDDf-g","https://www.facebook.com/Snowdays.Bolzano/"]}></ButtonsTable>
-                                    </div>
+                                    <h2 className='text-white font-josefin subtitle'>CONTACT INFORMATION</h2>
+                                    <h5 className='font-poppins normal-text text-white'>info@snowdays.it</h5>
 
                                 </div>
 
+                            </div>    
+
+                            <div className='d-none d-sm-block'>
+                                <Separator number={10} ></Separator>
+                            </div>
+
+                            <div className='d-none d-lg-block'>
+                                <Separator number={12} ></Separator>
+                            </div>
+
+                            <div className=' row justify-content-center offset-down-10 mt-5 pt-5'> 
+
+                                <ButtonsTable buttons = {[instagram, youtube, facebook]} links = {["https://www.instagram.com/snowdays.bolzano/","https://www.youtube.com/channel/UCthdDzE2fTo47z26YIDDf-g","https://www.facebook.com/Snowdays.Bolzano/"]}></ButtonsTable>
+                            </div>
+
+                        </div>
 
 
-                                </div>    
 
-                           
+                    </div>    
 
-                        </div>  
+                        
 
 
-                    </div>
+
+                    
 
                 
 
