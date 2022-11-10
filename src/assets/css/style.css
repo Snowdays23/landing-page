@@ -27,6 +27,10 @@
     font-family: 'Poppins', Arial, sans-serif;
 }
 
+.title {
+    font-size: 8vw;
+}
+
 .subtitle {
     font-size: 5vw;
 }
@@ -75,6 +79,10 @@
     top: -9vw;
 }
 
+.offset-up-7 {
+    top: -14vw;
+}
+
 .offset-up-10 {
     top: -23vw;
 }
@@ -98,7 +106,6 @@
 .offset-up-35 {
     top: -80vw;
 }
-
 
 .offset-up-px-150 {
     top: -150px;
@@ -156,6 +163,12 @@
     background-color: #9bb4df;
 }
 
+.white-separator-xs {
+    height: 8vw;
+    width: 100vw;
+    background-color: #fff;
+}
+
 .white-separator-sm {
     height: 20vw;
     width: 100vw;
@@ -168,8 +181,24 @@
     background-color: #fff;
 }
 
-.light-blue-separator-md {
+.light-blue-separator-md {  
     height: 50vw;
     width: 100vw;
     background-color: #a9d3ea;
+}
+
+@media (min-width:992px) {
+
+    .title {
+        font-size: 5vw;
+    }
+
+    .subtitle {
+        font-size: 3vw;
+    }
+
+    .normal-text {
+        font-size: 2vw;
+    }
+
 }
