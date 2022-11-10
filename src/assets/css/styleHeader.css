@@ -28,3 +28,22 @@
     width: 11vw;
     height: auto;
 }
+
+@media (min-width:992px) {
+
+    #main-logo {
+        width: 60vw;
+        height: auto;
+    }
+
+    #white-stars1 {
+        width: 5vw;
+        height: auto;
+    }
+    
+    #blue-stars1 {
+        width: 5vw;
+        height: auto;
+    }
+
+}

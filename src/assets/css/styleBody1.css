@@ -4,7 +4,7 @@
 
 #yt-video {
     width: 100vw;
-    height: 28vh;
+    height: 60vw;
 }
 
 #mountains-separator1 {
@@ -17,3 +17,22 @@
     width: 11vw;
     height: auto;
 }
+
+
+
+@media (min-width:992px) {
+
+    #blue-stars2 {
+        transform: rotateY(180deg); 
+        width: 5vw;
+        height: auto;
+    }
+
+    #yt-video {
+        width: 100vw;
+        height: 35vw;
+    }
+
+    
+}
+

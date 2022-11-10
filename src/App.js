@@ -22,12 +22,8 @@ function App() {
       <Body1></Body1>
       <Body2></Body2>
       <Body3></Body3>
-      <Separator number={4}></Separator>
       <Body4></Body4>
-      <Separator number={15}></Separator>
       <Body5></Body5>
-      {/* <Separator number={120}></Separator>
-      <Body6></Body6> */}
            
     </div>
   );

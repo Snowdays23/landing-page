@@ -2,12 +2,18 @@
     color: #304f9e;
 }
 
-.title {
-    font-size: 8vw;
-}
-
 .slide img{
     object-fit: cover;
     width: 100%;
-    height: 200px;
+    height: 65vw;
+}
+
+@media (min-width:992px) {
+
+    .slide img{
+        object-fit: cover;
+        width: 100%;
+        height: 20vw;
+    }
+    
 }
