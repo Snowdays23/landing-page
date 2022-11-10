@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.bd4286c4.css",
-    "main.js": "/landing-page/static/js/main.f83aeef8.js",
+    "main.css": "/landing-page/static/css/main.fc94bde6.css",
+    "main.js": "/landing-page/static/js/main.f7ec0aaf.js",
     "static/js/787.6606bfd5.chunk.js": "/landing-page/static/js/787.6606bfd5.chunk.js",
     "static/media/real-mountains.png": "/landing-page/static/media/real-mountains.5e606d11210a8da6a66a.png",
+    "static/media/mountains_illustration1WEB.svg": "/landing-page/static/media/mountains_illustration1WEB.df10ccf92bccd14d7d76ae199d34db05.svg",
     "static/media/08-14.28_JAC_1800.jpg": "/landing-page/static/media/08-14.28_JAC_1800.3d53d9ec24412e813519.jpg",
     "static/media/07-20.34__MG_5258.jpg": "/landing-page/static/media/07-20.34__MG_5258.3356f3a3185b8929ffcc.jpg",
     "static/media/LUT Logo RGB.jpg": "/landing-page/static/media/LUT Logo RGB.174d8e224a7a1fe0df7e.jpg",
@@ -19,6 +20,7 @@
     "static/media/decathlon.png": "/landing-page/static/media/decathlon.65b39cd2eacde663ee77.png",
     "static/media/clipper.png": "/landing-page/static/media/clipper.baece586ff5927d116d6.png",
     "static/media/Logo_SD_23.svg": "/landing-page/static/media/Logo_SD_23.8085caa7986ca1e23b9154c6e3234920.svg",
+    "static/media/mountains_illustration2WEB.svg": "/landing-page/static/media/mountains_illustration2WEB.8c36cca798ad731654f54b2d44e7358a.svg",
     "static/media/mountains_illustration3.svg": "/landing-page/static/media/mountains_illustration3.936beb5207015bcd6fd3b7552508e70f.svg",
     "static/media/mountains_illustration2.svg": "/landing-page/static/media/mountains_illustration2.13f88c1539446f2c8f4483ce0d3c2443.svg",
     "static/media/mountains_illustration2_white.svg": "/landing-page/static/media/mountains_illustration2_white.1229eabb43e03453dd5bea30ea5265da.svg",
@@ -29,12 +31,12 @@
     "static/media/youtube.svg": "/landing-page/static/media/youtube.8db9c6f52f1fa37e6e22af922489e9e3.svg",
     "static/media/facebook.svg": "/landing-page/static/media/facebook.a17098afa9480c503b04a7c1c9fe54e8.svg",
     "index.html": "/landing-page/index.html",
-    "main.bd4286c4.css.map": "/landing-page/static/css/main.bd4286c4.css.map",
-    "main.f83aeef8.js.map": "/landing-page/static/js/main.f83aeef8.js.map",
+    "main.fc94bde6.css.map": "/landing-page/static/css/main.fc94bde6.css.map",
+    "main.f7ec0aaf.js.map": "/landing-page/static/js/main.f7ec0aaf.js.map",
     "787.6606bfd5.chunk.js.map": "/landing-page/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd4286c4.css",
-    "static/js/main.f83aeef8.js"
+    "static/css/main.fc94bde6.css",
+    "static/js/main.f7ec0aaf.js"
   ]
 }
