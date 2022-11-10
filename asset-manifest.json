@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.fc94bde6.css",
+    "main.css": "/landing-page/static/css/main.7fc4cca6.css",
     "main.js": "/landing-page/static/js/main.f7ec0aaf.js",
     "static/js/787.6606bfd5.chunk.js": "/landing-page/static/js/787.6606bfd5.chunk.js",
     "static/media/real-mountains.png": "/landing-page/static/media/real-mountains.5e606d11210a8da6a66a.png",
@@ -31,12 +31,12 @@
     "static/media/youtube.svg": "/landing-page/static/media/youtube.8db9c6f52f1fa37e6e22af922489e9e3.svg",
     "static/media/facebook.svg": "/landing-page/static/media/facebook.a17098afa9480c503b04a7c1c9fe54e8.svg",
     "index.html": "/landing-page/index.html",
-    "main.fc94bde6.css.map": "/landing-page/static/css/main.fc94bde6.css.map",
+    "main.7fc4cca6.css.map": "/landing-page/static/css/main.7fc4cca6.css.map",
     "main.f7ec0aaf.js.map": "/landing-page/static/js/main.f7ec0aaf.js.map",
     "787.6606bfd5.chunk.js.map": "/landing-page/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc94bde6.css",
+    "static/css/main.7fc4cca6.css",
     "static/js/main.f7ec0aaf.js"
   ]
 }
