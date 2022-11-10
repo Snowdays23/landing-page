@@ -60,7 +60,7 @@ export default class Body5 extends Component {
 
                             <div className='row justify-content-center relative' >
 
-                                <div className='col-10'>
+                                <div className='col-lg-6 col-10'>
 
                                     <h2 className='text-blue font-josefin title'>''THERE ARE NO DAYS LIKE SNOWDAYS''</h2>
 
@@ -79,7 +79,7 @@ export default class Body5 extends Component {
 
                             <div className='row justify-content-center' >
 
-                                <div className='col-10'>
+                                <div className='col-lg-8 col-10'>
 
                                     <h2 className='text-white font-josefin subtitle'>CONTACT INFORMATION</h2>
                                     <h5 className='font-poppins normal-text text-white'>info@snowdays.it</h5>
