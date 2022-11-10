@@ -75,6 +75,10 @@
     top: 0;
 }
 
+.offset-up-1 {
+    top: -2vw;
+}
+
 .offset-up-5 {
     top: -9vw;
 }
