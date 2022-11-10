@@ -16,7 +16,11 @@ export default class Body2 extends Component {
 
             <div className = "wrapper-outside-body relative offset-up-20 pb-15">
 
-                <div className = "container">
+                <div className='d-xs-block d-lg-none'>
+                        <Separator number={20} ></Separator>
+                </div>
+
+                <div className = "container relative offset-up-5">
 
                     <div className='row justify-content-center relative offset-up-5' >
 

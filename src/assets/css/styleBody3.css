@@ -17,3 +17,14 @@
     overflow: hidden;
     background-position:center;
 }
+
+@media (min-width:992px) {
+
+    #img-logo {
+        width: 17vw;
+        height: auto;
+        background-position:center;
+        padding: 3vw;
+    }
+    
+}
