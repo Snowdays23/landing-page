@@ -24,11 +24,9 @@ export default function SponsorsRoll({logos}) {
             } else if (evt.originalEvent.animationName === "roll-on-screen") {
                 evt.currentTarget.classList.remove("rolling-on-screen");
                 evt.currentTarget.classList.add("rolling-off-screen");
-                console.log(evt.currentTarget.getBoundingClientRect().width)
                 evt.currentTarget.style.animationDuration = `${
                     (window.innerWidth + 0.1 * evt.currentTarget.getBoundingClientRect().width) * 8
                 }ms`;
-                console.log(evt.currentTarget.style.animationDuration);
 
                 setLogoIndex((logoIndex + 1) % logos.length);
                 
