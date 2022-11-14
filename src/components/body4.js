@@ -10,6 +10,7 @@ import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
 import "../assets/css/style.css";
 import "../assets/css/styleBody4.css";
+import SponsorsRoll from './subcomponents/rolling-sponsors';
 
 export default class Body4 extends Component {
 
@@ -21,33 +22,27 @@ export default class Body4 extends Component {
                 
                 <img src={bgMountains2} className="relative offset-up-15" />    
 
-                <div className='wrapper-outside-body absolute overlay-1 offset-down-10'>
+                <div className='wrapper-outside-body absolute overlay-1 offset-down-5 w-100'>
 
-                    <div className='row justify-content-center' >
+                    <div class="mx-5">
+                        <h2 className='title font-josefin'>SPONSORS & PARTNERS</h2>
+                        <h5 className='font-poppins normal-text'>we had the great opportunity to work with brand like</h5>
 
-                        <div className='col-10'>
-
-                            <h2 className='title font-josefin '>SPONSORS & PARTNERS</h2>
-                            <h5 className='font-poppins normal-text'>we had the great opportunity to work with brand like</h5>
-
-                            <div className='mt-3'>
-                                    <LogosTable logos = {[clipper, decathlon, loacker]}></LogosTable>
-                            </div>
-
+                        <div className='my-4'>
+                            <SponsorsRoll logos={[clipper, decathlon, loacker, loacker]}/>
                         </div>
-
                     </div>
 
                 </div>
 
                 
                 <div className='row justify-content-center'>
-                        <div className='col-12'>
-                            <div className='slide'>
-                                <img name="carouselImage" src={skiGuy} alt=""/>
-                            </div>
+                    <div className='col-12'>
+                        <div className='slide'>
+                            <img name="carouselImage" src={skiGuy} alt=""/>
                         </div>
                     </div>
+                </div>
 
 
             </div>

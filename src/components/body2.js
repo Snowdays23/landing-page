@@ -34,24 +34,6 @@ export default class Body2 extends Component {
                             textFront="Didascalia fronte carta prova" 
                             textBack="Didascalia retro carta prova"/>
                     </div>
-                    
-                    {/* <div className='row justify-content-center'>
-                        <div className='col-10'>
-                            <div className='slide'>
-                                <img name="carouselImage" src={skiGuy} alt=""/>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='row justify-content-center mt-5 '>
-                        <div className='col-10'>
-                            <div className='slide'>
-                                <img name="carouselImage2" src={pool} class="slide" alt=""/>
-                            </div>
-                        </div>
-                    </div> */}
-
-
 
                 </div>
 
