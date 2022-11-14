@@ -15,7 +15,7 @@ function App() {
     <div  className="App"> 
       <div className = " wrapper-parallex ">
           <div  id="snow" className="wrapper-mountains">
-            <img src={bg}  />
+            <img src={bg}  alt="Picture of mountains" />
           </div>
       </div>
       <Header></Header>

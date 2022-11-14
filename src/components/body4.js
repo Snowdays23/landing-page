@@ -41,7 +41,7 @@ export default class Body4 extends Component {
 
                 </div>
 
-                <img src={bgMountains2} className="absolute full-width offset-right-0 offset-up-15" />    
+                <img src={bgMountains2} className="absolute full-width offset-right-0 offset-up-15"  alt="Stylized mountains"/>    
 
                 <div className='d-none d-sm-block'>
                     <Separator number={10} ></Separator>
@@ -51,7 +51,7 @@ export default class Body4 extends Component {
                 <div className='row justify-content-center mt-5 relative '>
                         <div className='col-12'>
                             <div className='slide2'>
-                                <img name="carouselImage" src={skiGuy} alt=""/>
+                                <img name="carouselImage" src={skiGuy} alt="Guy skiing in a tank top"/>
                             </div>
                         </div>
                 </div>

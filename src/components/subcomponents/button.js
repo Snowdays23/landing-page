@@ -21,7 +21,7 @@ function Button ({img, link}) {
             <span id="wrapper-logos" className = "p-2 col-3">
 
                 <a href={link} target="_blank">
-                    <img src={img} id = "img-logo" />
+                    <img src={img} id = "img-logo"  alt="Social network buttons" />
                 </a>
 
             </span>

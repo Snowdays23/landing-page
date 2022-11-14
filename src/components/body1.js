@@ -28,7 +28,7 @@ export default class Body1 extends Component {
 
                 </div>
 
-                <img src={blueStars} id = "blue-stars2" className='absolute overlay-1 offset-down-5 offset-right-0'/>
+                <img src={blueStars} id = "blue-stars2" className='absolute overlay-1 offset-down-5 offset-right-0' alt="Blue stars"/>
                 
                 <div className='mt-5 overlay-1 relative'>
 
@@ -69,12 +69,12 @@ export default class Body1 extends Component {
                 </div>
                 
                 <div className='d-xs-block d-lg-none'>
-                <img src={bgMountains} className = "relative offset-up-px-150" id="mountains-separator1" />
+                <img src={bgMountains} className = "relative offset-up-px-150" id="mountains-separator1" alt="Stylized mountains" />
                 </div>
                     
 
                 <div className='d-none d-lg-block '>
-                    <img src={bgMountainsWEB} className="relative offset-up-7"/>
+                    <img src={bgMountainsWEB} className="relative offset-up-7"  alt="Stylized mountains"/>
                 </div>
 
             </div>

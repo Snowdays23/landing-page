@@ -34,7 +34,7 @@ export default class Body5 extends Component {
                         </div>
 
                         {/* <div className='relative offset-up-0 light-blue-separator-md '></div> */}
-                        <img src={bgMountains} className = "relative offset-up-1" />
+                        <img src={bgMountains} className = "relative offset-up-1"  alt="Stylized mountains"/>
 
                         <div className=' absolute full-width offset-down-10 offset-right-0 center ' >
 
@@ -50,7 +50,7 @@ export default class Body5 extends Component {
                         <div className='row justify-content-center relative offset-up-10' >
                             <div className='col-12'>
                                 <div className='slide2'>
-                                    <img name="carouselImage" src={pool} alt=""/>
+                                    <img name="carouselImage" src={pool} alt="Clipper inflatable floating on the pool's water"/>
                                 </div>
                             </div>
 
@@ -73,7 +73,7 @@ export default class Body5 extends Component {
 
                     <div className='relative overlay-1 '>
 
-                        <img src={bgMountains2} id="bg-mountains-end" className='absolute offset-up-0 offset-right-0'/> 
+                        <img src={bgMountains2} id="bg-mountains-end" className='absolute offset-up-0 offset-right-0' alt="Stylized mountains"/> 
                             
                         <div className = "container relative offset-down-20">
 

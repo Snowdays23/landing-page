@@ -27,12 +27,12 @@ export default class Header extends Component {
                         <div className='col-12'>
 
                         <div className='d-xs-block d-lg-none'>
-                            <img src={bgMountains} id = "bg-mountains"/>
+                            <img src={bgMountains} id = "bg-mountains"  alt="Stylized mountains"/>
                         </div>
                             
 
                         <div className='d-none d-lg-block'>
-                            <img src={bgMountainsWEB} id = "bg-mountains"/>
+                            <img src={bgMountainsWEB} id = "bg-mountains" alt="Stylized mountains"/>
                         </div>
             
                         </div>
@@ -48,7 +48,7 @@ export default class Header extends Component {
 
                         <div className='row justify-content-center'>
 
-                            <img src={logoSD23} id = "main-logo" className='white-shadow-stronger'/>
+                            <img src={logoSD23} id = "main-logo" className='white-shadow-stronger'  alt="Snowdays23 logo: blue snowflake with writing: SNOWDAYS"/>
                             
                         </div>                
 
@@ -75,7 +75,7 @@ export default class Header extends Component {
                         <div className='d-none d-sm-block d-lg-none'>
                             
                             <div className = "row justify-content-center relative offset-up-10 offset-right-30">
-                                <img src={whiteStars} id="white-stars1" className = "blue-shadow overlay-1"/>
+                                <img src={whiteStars} id="white-stars1" className = "blue-shadow overlay-1" alt="Little white stars"/>
                             </div>
 
                         </div>
@@ -85,7 +85,7 @@ export default class Header extends Component {
                         <br/>
                         
                         <div className = "row justify-content-center relative offset-down-5 offset-left-30">
-                            <img src={blueStars} id="blue-stars1" className = "white-shadow overlay-1"/>
+                            <img src={blueStars} id="blue-stars1" className = "white-shadow overlay-1"  alt="Little blue stars"/>
                         </div>
 
                         <br/>

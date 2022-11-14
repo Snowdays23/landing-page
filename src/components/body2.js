@@ -36,7 +36,7 @@ export default class Body2 extends Component {
                     <div className='row justify-content-center'>
                         <div className=' col-lg-5 col-10'>
                             <div className='slide'>
-                                <img name="carouselImage" src={skiGuy} alt=""/>
+                                <img name="carouselImage" src={skiGuy} alt="Guy skiing in a tank top"/>
                             </div>
                         </div>
                     
@@ -49,7 +49,7 @@ export default class Body2 extends Component {
 
                         <div className=' col-lg-5 col-10'>
                             <div className='slide'>
-                                <img name="carouselImage2" src={pool} class="slide" alt=""/>
+                                <img name="carouselImage2" src={pool} class="slide" alt="Clipper inflatable floating on the pool's water"/>
                             </div>
                         </div>
                     </div>

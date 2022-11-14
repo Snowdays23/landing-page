@@ -19,7 +19,7 @@ export default class Body3 extends Component {
         return (
 
             <div className = "wrapper-outside-body-blue relative offset-up-20">
-                <img src={bgMountains} className='relative offset-up-15'/>
+                <img src={bgMountains} className='relative offset-up-15'  alt="Stylized mountains"/>
 
                 <div className=' absolute  overlay-1 offset-down-5 offset-right-0 full-width wrapper-outside-body-blue pb-15'>
 
