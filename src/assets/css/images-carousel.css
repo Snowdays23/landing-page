@@ -1,3 +1,24 @@
+/* .carousel-button {
+    position: absolute;
+    background-color: transparent;
+    align-self: center;
+    z-index: 999;
+    outline: none;
+    border: none
+}
+
+.carousel-button:-moz-focus-inner, .carousel-button:focus { 
+    border: 0; 
+}
+
+.carousel-button.left {
+    left: 0;
+}
+
+.carousel-button.right {
+    right: 0;
+} */
+
 .carousel-slide {
     position: absolute;
     left: 0;
