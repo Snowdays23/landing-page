@@ -7,8 +7,7 @@ import blueStars from '../assets/img/blue_stars.svg';
 import Separator from './subcomponents/separator';
 import "../assets/css/style.css";
 import "../assets/css/styleHeader.css";
-import "../assets/css/bootstrap.min.css";    
-import "../assets/js/PureSnow.js";
+import "../assets/css/bootstrap.min.css";  
 
 export default class Header extends Component {
     render () {
