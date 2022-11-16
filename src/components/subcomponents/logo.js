@@ -9,7 +9,7 @@ function Logo ({img}) {
 
             <span id="wrapper-logos" className = "col-3">
 
-                <img src={img} id = "img-logo" />
+                <img src={img} id = "img-logo"  alt="Participant University logo"/>
 
             </span>
             

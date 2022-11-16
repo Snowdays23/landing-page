@@ -39,9 +39,19 @@
     font-size: 4vw;
 }
 
+.small-text {
+    font-size: 3vw;
+}
+
+
 .offset-down-1 {
     top: 2vw;
 }
+
+.offset-down-3 {
+    top: 6vw;
+}
+
 
 .offset-down-5 {
     top: 10vw;
@@ -185,6 +195,12 @@
     background-color: #fff;
 }
 
+.light-blue-separator-xs {  
+    height: 10vw;
+    width: 100vw;
+    background-color: #a9d3ea;
+}
+
 .light-blue-separator-sm {  
     height: 20vw;
     width: 100vw;
@@ -209,6 +225,10 @@
 
     .normal-text {
         font-size: 2vw;
+    }
+
+    .small-text {
+        font-size: 1.3vw;
     }
 
 }

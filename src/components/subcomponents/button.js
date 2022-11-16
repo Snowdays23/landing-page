@@ -6,14 +6,6 @@ import "../../assets/css/style.css";
 
 function Button ({img, link}) {
 
-    // const navigate = useNavigate();
-
-    // const navigateToSocial = () => {
-
-    //     navigate(link);
-
-    // }
-
     return (
 
         <Router>
@@ -21,7 +13,7 @@ function Button ({img, link}) {
             <span id="wrapper-logos" className = "p-2 col-3">
 
                 <a href={link} target="_blank">
-                    <img src={img} id = "img-logo" />
+                    <img src={img} className="blue-shadow" id = "img-social-logo"  alt="Social network buttons" />
                 </a>
 
             </span>
