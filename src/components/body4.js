@@ -24,7 +24,12 @@ export default class Body4 extends Component {
 
             <div className='wrapper-outside-body overlay-1 relative offset-up-20 '>
                 
-                <div className='wrapper-outside-body relative  overlay-1 offset-down-5 mb-5'>
+                <div className='wrapper-outside-body relative  overlay-1 offset-down-0 mb-5'>
+
+                <div className='d-xs-block d-lg-none'>
+                        <Separator number={20} ></Separator>
+                </div>
+
 
                     <div className='row justify-content-center' >
 
@@ -45,10 +50,6 @@ export default class Body4 extends Component {
                 </div>
 
                 <img src={bgMountains2} className="absolute full-width offset-right-0 offset-up-15"  alt="Stylized mountains"/>    
-
-                <div className='d-none d-sm-block'>
-                    <Separator number={10} ></Separator>
-                </div>
 
 
                 <div className='row justify-content-center mt-5 relative '>
