@@ -12,6 +12,7 @@ import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
 import "../assets/css/style.css";
 import "../assets/css/styleBody3.css";
+import Separator from './subcomponents/separator';
 export default class Body3 extends Component {
 
 
@@ -21,7 +22,11 @@ export default class Body3 extends Component {
             <div className = "wrapper-outside-body-blue relative offset-up-20">
                 <img src={bgMountains} className='relative offset-up-15'  alt="Stylized mountains"/>
 
-                <div className=' absolute  overlay-1 offset-down-5 offset-right-0 full-width wrapper-outside-body-blue pb-15'>
+                <div className=' absolute  overlay-1 offset-up-0 offset-right-0 full-width wrapper-outside-body-blue pb-15'>
+
+                    <div className='d-xs-block d-lg-none'>
+                            <Separator number={15} ></Separator>
+                    </div>
 
 
                     <div className='row justify-content-center'>

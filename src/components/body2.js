@@ -21,7 +21,7 @@ export default class Body2 extends Component {
                         <Separator number={20} ></Separator>
                 </div>
 
-                <div className = "container relative offset-up-5">
+                <div className = "container relative offset-up-7">
 
                     <div className='row justify-content-center relative offset-up-5' >
 
@@ -52,7 +52,7 @@ export default class Body2 extends Component {
 
                         <div class="w-100 d-xs-block d-lg-none "></div>
 
-                        <div className=' col-lg-5 col-10'>
+                        <div className=' col-lg-5 col-10 mr-4'>
 
                             <div class="flipping-image-card-wrapper">
                                 <FlippingImageCard

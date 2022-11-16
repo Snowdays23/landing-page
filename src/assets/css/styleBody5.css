@@ -1,3 +1,10 @@
+#img-social-logo {
+    width: 17vw;
+    height: auto;
+    background-position:center;
+    padding-bottom: 3vw;
+    padding-top: 3vw;
+}
 
 
 #bg-mountains-end {
@@ -7,4 +14,21 @@
 
 #bg-mountains-pics {
     transform: rotateX(180deg); 
+}
+
+@media (min-width:992px) {
+
+    #bg-mountains-end {
+        width: 150%;
+        height: auto;
+    }
+    
+    #img-social-logo {
+        width: 14vw;
+        height: auto;
+        background-position:center;
+        padding: 3vw;
+    }
+    
+
 }

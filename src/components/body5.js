@@ -34,7 +34,7 @@ export default class Body5 extends Component {
                     <div className='wrapper-outside-body relative overlay-1 full-width'>
 
                         <div className='d-none d-lg-block'>
-                            <div className='relative offset-up-0 light-blue-separator-sm'></div>
+                            <div className='relative offset-up-0 light-blue-separator-xs'></div>
                         </div>
 
                         <div className='d-xs-block d-lg-none'>
@@ -43,9 +43,14 @@ export default class Body5 extends Component {
 
                         <img src={bgMountains} className = "relative offset-up-1"  alt="Stylized mountains"/>
 
-                        <div className=' absolute full-width offset-down-10 offset-right-0 center ' >
-
+                        <div className=' absolute full-width offset-down-5 offset-right-0 center ' >
+                            
                             <div className='col-10 '>
+
+                                <div className='d-xs-block d-lg-none'>
+                                    <Separator number={10} ></Separator>
+                                </div>
+
 
                                 <h2 className='title font-josefin text-white '>MORE IMPRESSIONS</h2>
                                 <h5 className='font-poppins normal-text text-white' >from the past years</h5>
@@ -80,7 +85,7 @@ export default class Body5 extends Component {
 
                     <div className='relative overlay-1 '>
 
-                        <img src={bgMountains2} id="bg-mountains-end" className='absolute offset-up-0 offset-right-0' alt="Stylized mountains"/> 
+                        <img src={bgMountains2} id="bg-mountains-end" className='absolute offset-down-3 offset-right-0' alt="Stylized mountains"/> 
                             
                         <div className = "container relative offset-down-20">
 
@@ -106,6 +111,14 @@ export default class Body5 extends Component {
                             <div className=' row justify-content-center offset-down-10 mt-5 pt-5'> 
 
                                 <ButtonsTable buttons = {[instagram, youtube, facebook]} links = {["https://www.instagram.com/snowdays.bolzano/","https://www.youtube.com/channel/UCthdDzE2fTo47z26YIDDf-g","https://www.facebook.com/Snowdays.Bolzano/"]}></ButtonsTable>
+                            </div>
+
+                            <div className='d-none d-lg-block'>
+                                <Separator number={12} ></Separator>
+                            </div>
+
+                            <div className='row justify-content-center '>
+                                <span className='small-text text-white blue-shadow'>© Copyright 2022 Snowdays. All Rights Reserved.</span>
                             </div>
 
                         </div>
