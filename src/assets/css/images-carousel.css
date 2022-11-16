@@ -1,0 +1,61 @@
+/* .carousel-button {
+    position: absolute;
+    background-color: transparent;
+    align-self: center;
+    z-index: 999;
+    outline: none;
+    border: none
+}
+
+.carousel-button:-moz-focus-inner, .carousel-button:focus { 
+    border: 0; 
+}
+
+.carousel-button.left {
+    left: 0;
+}
+
+.carousel-button.right {
+    right: 0;
+} */
+
+.carousel-slide {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 64vmin;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.leaving {
+    animation-name: slide-out;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.entering {
+    left: 100%;
+    animation-name: slide-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes slide-out {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -100%;
+    }
+}
+
+@keyframes slide-in {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: 0;
+    }
+}

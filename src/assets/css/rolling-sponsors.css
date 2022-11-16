@@ -1,0 +1,42 @@
+.logo {
+    position: absolute;
+    width: 64vmin;
+    height: 32vmin;
+    max-height: 32vmin;
+    background-size: 100% auto;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-duration: 0.1s;
+}
+
+.logo.rolling-on-screen {
+    left: 100vw;
+    animation-delay: 0.5s;
+    animation-name: roll-on-screen;
+}
+
+.logo.rolling-off-screen {
+    animation-name: roll-off-screen;
+}
+
+@keyframes roll-on-screen {
+    0% {
+        left: 100vw;
+    }
+
+    100% {
+        left: calc(100vw - 64vmin);
+    }
+}
+
+@keyframes roll-off-screen {
+    0% {
+        left: calc(100vw - 64vmin);
+    }
+
+    100% {
+        left: -100%;
+    }
+}

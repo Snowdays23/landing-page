@@ -12,10 +12,18 @@ import "../assets/css/styleBody5.css";
 import "../assets/css/style.css";
 import ButtonsTable from './subcomponents/buttons-table';
 import Separator from './subcomponents/separator';
+import football from '../assets/img/previousImg/07-19.37_ROB_0924.jpg';
+import volleyball from '../assets/img/previousImg/09-14.49_ISE_045.jpg';
+import party from '../assets/img/previousImg/08-00.13_ROB_1337.jpg';
+import "../assets/css/bootstrap.min.css";
+import "../assets/css/bootstrap-override.css";
+import "../assets/css/style.css";
+import "../assets/css/styleBody4.css";
+import ImagesCarousel from './subcomponents/images-carousel';
+import skiGuy from '../assets/img/previousImg/08-14.28_JAC_1800.jpg';
 
 export default class Body5 extends Component {
-
-
+    
     render () {
         return (
 
@@ -33,7 +41,6 @@ export default class Body5 extends Component {
                             <div className='relative offset-up-0 light-blue-separator-md'></div>
                         </div>
 
-                        {/* <div className='relative offset-up-0 light-blue-separator-md '></div> */}
                         <img src={bgMountains} className = "relative offset-up-1"  alt="Stylized mountains"/>
 
                         <div className=' absolute full-width offset-down-10 offset-right-0 center ' >
@@ -49,8 +56,8 @@ export default class Body5 extends Component {
 
                         <div className='row justify-content-center relative offset-up-10' >
                             <div className='col-12'>
-                                <div className='slide2'>
-                                    <img name="carouselImage" src={pool} alt="Clipper inflatable floating on the pool's water"/>
+                                <div class="">
+                                    <ImagesCarousel images={[party, skiGuy, pool, football, volleyball]} intervalMs={4000}/>
                                 </div>
                             </div>
 
@@ -105,15 +112,7 @@ export default class Body5 extends Component {
 
 
 
-                    </div>    
-
-                        
-
-
-
-                    
-
-                
+                    </div>                    
 
                 </div>
 

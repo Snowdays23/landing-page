@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FlippingImageCard from './subcomponents/flipping-image-card';
 import skiGuy from '../assets/img/previousImg/08-14.28_JAC_1800.jpg';
 import pool from '../assets/img/previousImg/07-20.34__MG_5258.jpg';
 import whiteStars from '../assets/img/white_stars.svg';
@@ -31,33 +32,43 @@ export default class Body2 extends Component {
                         </div>
 
                     </div>              
-
                     
                     <div className='row justify-content-center'>
                         <div className=' col-lg-5 col-10'>
-                            <div className='slide'>
-                                <img name="carouselImage" src={skiGuy} alt="Guy skiing in a tank top"/>
+                            <div class="flipping-image-card-wrapper ">
+                                <FlippingImageCard
+                                    imgFront={skiGuy} 
+                                    imgBack={pool} 
+                                    textFront="Didascalia fronte carta prova" 
+                                    textBack="Didascalia retro carta prova"/>
                             </div>
                         </div>
                     
                         <div class="w-100 d-xs-block d-lg-none "></div>
 
-                        <div className='d-xs-block d-lg-none'>
+                        <div className='d-xs-block d-lg-none col-12'>
                              <Separator number={10} ></Separator>
                         </div>
-                
+
+                        <div class="w-100 d-xs-block d-lg-none "></div>
 
                         <div className=' col-lg-5 col-10'>
-                            <div className='slide'>
-                                <img name="carouselImage2" src={pool} class="slide" alt="Clipper inflatable floating on the pool's water"/>
+
+                            <div class="flipping-image-card-wrapper">
+                                <FlippingImageCard
+                                    imgFront={skiGuy} 
+                                    imgBack={pool} 
+                                    textFront="Didascalia fronte carta prova" 
+                                    textBack="Didascalia retro carta prova"/>
+                            </div>
+                        </div>                    
+
+                        <div className='row justify-content-center'>
+                            <div className='d-none d-sm-block d-md-none'>
+                                <div className='relative white-separator-sm'></div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className='row justify-content-center'>
-                        <div className='d-none d-sm-block'>
-                            <div className='relative white-separator-sm'></div>
-                        </div>
                     </div>
 
                 </div>
