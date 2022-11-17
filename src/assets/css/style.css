@@ -43,6 +43,9 @@
     font-size: 3vw;
 }
 
+.text-blue {
+    color: #304f9e;
+}
 
 .offset-down-1 {
     top: 2vw;
