@@ -18,13 +18,13 @@ export default function FlippingImageCard({imgFront, imgBack, textFront, textBac
                 <div class="card flipping-image-card" style={{ position: "fixed", "max-height": "72vmin" }}>
                     <img src={imgFront} class="card-img-top" alt=""></img>
                     <div class="card-body">
-                        <p>{textFront}</p>
+                        <p className='text-white normal-text font-josefin'>{textFront}</p>
                     </div>
                 </div>
                 <div class="card flipping-image-card" style={{ position: "fixed", "max-height": "72vmin" }}>
                     <img src={imgBack} class="card-img-top" alt=""></img>
                     <div class="card-body">
-                        <p>{textBack}</p>
+                        <p className='text-white normal-text font-josefin'>{textBack}</p>
                     </div>
                 </div>
             </ReactCardFlip>

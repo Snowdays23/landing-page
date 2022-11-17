@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import pool from '../assets/img/previousImg/07-20.34__MG_5258.jpg';
 import bgMountains from '../assets/img/mountains_illustration3.svg';
 import LogosTable from './subcomponents/logos-table';
 import instagram from '../assets/img/socialsLogo/instagram.svg';
@@ -12,15 +11,18 @@ import "../assets/css/styleBody5.css";
 import "../assets/css/style.css";
 import ButtonsTable from './subcomponents/buttons-table';
 import Separator from './subcomponents/separator';
-import football from '../assets/img/previousImg/07-19.37_ROB_0924.jpg';
-import volleyball from '../assets/img/previousImg/09-14.49_ISE_045.jpg';
-import party from '../assets/img/previousImg/08-00.13_ROB_1337.jpg';
+import img1Colors from '../assets/img/previousImg/general/colors.jpg';
+import img2Skier from '../assets/img/previousImg/general/skier.jpg';
+import img3Snowparty from '../assets/img/previousImg/general/snowparty.jpg';
+import img4Buffet from '../assets/img/previousImg/general/buffet.jpg';
+import img5Twister from '../assets/img/previousImg/general/twister.jpg';
+import img6Pokal from '../assets/img/previousImg/general/pokal.jpg';
+import img7Yeti from '../assets/img/previousImg/general/yeti.jpg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
 import "../assets/css/style.css";
 import "../assets/css/styleBody4.css";
 import ImagesCarousel from './subcomponents/images-carousel';
-import skiGuy from '../assets/img/previousImg/08-14.28_JAC_1800.jpg';
 
 export default class Body5 extends Component {
     
@@ -62,7 +64,7 @@ export default class Body5 extends Component {
                         <div className='row justify-content-center relative offset-up-10' >
                             <div className='col-12'>
                                 <div class="">
-                                    <ImagesCarousel images={[party, skiGuy, pool, football, volleyball]} intervalMs={4000}/>
+                                    <ImagesCarousel images={[img1Colors, img2Skier, img3Snowparty, img4Buffet, img5Twister, img6Pokal, img7Yeti]} intervalMs={4000}/>
                                 </div>
                             </div>
 

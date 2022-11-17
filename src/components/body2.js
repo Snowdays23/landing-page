@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import FlippingImageCard from './subcomponents/flipping-image-card';
-import skiGuy from '../assets/img/previousImg/08-14.28_JAC_1800.jpg';
-import pool from '../assets/img/previousImg/07-20.34__MG_5258.jpg';
 import whiteStars from '../assets/img/white_stars.svg';
 import Separator from './subcomponents/separator';
+import img1SnowVolley from '../assets/img/previousImg/sports/snowvolley.jpg';
+import img2Flag from '../assets/img/previousImg/sports/flag.jpg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
 import "../assets/css/styleBody2.css";
@@ -37,17 +37,17 @@ export default class Body2 extends Component {
                         <div className=' col-lg-5 col-10'>
                             <div class="flipping-image-card-wrapper ">
                                 <FlippingImageCard
-                                    imgFront={skiGuy} 
-                                    imgBack={pool} 
-                                    textFront="Didascalia fronte carta prova" 
-                                    textBack="Didascalia retro carta prova"/>
+                                    imgFront={img1SnowVolley} 
+                                    imgBack={img2Flag} 
+                                    textFront="We welcome you to Snowdays, Europe's biggest winter sports event" 
+                                    textBack="We offer diverse career opportunities, contacts with many companies and much more!"/>
                             </div>
                         </div>
                     
                         <div class="w-100 d-xs-block d-lg-none "></div>
 
                         <div className='d-xs-block d-lg-none col-12'>
-                             <Separator number={10} ></Separator>
+                             <Separator number={30} ></Separator>
                         </div>
 
                         <div class="w-100 d-xs-block d-lg-none "></div>
@@ -56,10 +56,10 @@ export default class Body2 extends Component {
 
                             <div class="flipping-image-card-wrapper">
                                 <FlippingImageCard
-                                    imgFront={skiGuy} 
-                                    imgBack={pool} 
-                                    textFront="Didascalia fronte carta prova" 
-                                    textBack="Didascalia retro carta prova"/>
+                                    imgFront={img1SnowVolley} 
+                                    imgBack={img2Flag} 
+                                    textFront="We welcome you to Snowdays, Europe's biggest winter sports event" 
+                                    textBack="We offer diverse career opportunities, contacts with many companies and much more!"/>
                             </div>
                         </div>                    
 
