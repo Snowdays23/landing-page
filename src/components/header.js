@@ -15,9 +15,9 @@ export default class Header extends Component {
 
             <div className = "wrapper-outside  ">
 
-                <div className='d-none d-lg-block'>
+                {/* <div className='d-none d-lg-block'>
                     <Separator number={30} ></Separator>
-                </div>
+                </div> */}
 
                 <div className = "level-bg ">
                     
@@ -30,7 +30,7 @@ export default class Header extends Component {
                         </div>
                             
 
-                        <div className='d-none d-lg-block'>
+                        <div className='d-none d-lg-block relative offset-up-5'>
                             <img src={bgMountainsWEB} id = "bg-mountains" alt="Stylized mountains"/>
                         </div>
             
@@ -45,30 +45,33 @@ export default class Header extends Component {
 
                     <div>
 
-                        <div className='row justify-content-center'>
+                        <div className='d-xs-block d-lg-none'>
+                            <div className='row justify-content-center'>
 
-                            <img src={logoSD23} id = "main-logo" className='white-shadow-stronger'  alt="Snowdays23 logo: blue snowflake with writing: SNOWDAYS"/>
-                            
-                        </div>                
+                                <img src={logoSD23} id = "main-logo" className='white-shadow-stronger'  alt="Snowdays23 logo: blue snowflake with writing: SNOWDAYS"/>
+                                
+                            </div>                
 
 
-                        <Separator number={10} ></Separator>
-                        <div className='d-none d-sm-block d-lg-none'>
-                             <Separator number={10} ></Separator>
-                        </div>
-                        
-                        <div className='row justify-content-center relative offset-down5'>
-
-                            <div className='d-xs-block d-lg-none'>
+                            <Separator number={10} ></Separator>
+                            <div className='d-none d-sm-block d-lg-none'>
                                 <Separator number={10} ></Separator>
                             </div>
-
-                            <div className='col-lg-4 col-8 m-2'>
-
-                                <h1 className='subtitle font-weight-bold text-white font-josefin blue-shadow'>SAVE THE DATE FEBRUARY 2023</h1>
-                
-                            </div>
                             
+                            <div className='row justify-content-center relative offset-down5'>
+
+                                <div className='d-xs-block d-lg-none'>
+                                    <Separator number={10} ></Separator>
+                                </div>
+
+                                <div className='col-lg-4 col-8 m-2'>
+
+                                    <h1 className='subtitle font-weight-bold text-white font-josefin blue-shadow'>SAVE THE DATE FEBRUARY 2023</h1>
+                    
+                                </div>
+                                
+                            </div>
+
                         </div>
 
                         <div className='d-none d-sm-block d-lg-none'>
