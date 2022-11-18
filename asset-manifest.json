@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/landing-page/static/css/main.643e399b.css",
-    "main.js": "/landing-page/static/js/main.d5851fe9.js",
+    "main.js": "/landing-page/static/js/main.ae4d68ad.js",
     "static/js/787.6606bfd5.chunk.js": "/landing-page/static/js/787.6606bfd5.chunk.js",
     "static/media/real-mountains.png": "/landing-page/static/media/real-mountains.5e606d11210a8da6a66a.png",
     "static/media/snowvolley.jpg": "/landing-page/static/media/snowvolley.b7811e4cd56167f12b33.jpg",
     "static/media/snowparty.jpg": "/landing-page/static/media/snowparty.b2a94192e31c0d64dff7.jpg",
     "static/media/colors.jpg": "/landing-page/static/media/colors.882743012e40a66fa3c7.jpg",
+    "static/media/slope.jpg": "/landing-page/static/media/slope.5d0cafc2df878efbf3a1.jpg",
     "static/media/twister.jpg": "/landing-page/static/media/twister.aa4a3c346c67ef1ab738.jpg",
     "static/media/skier.jpg": "/landing-page/static/media/skier.ec4bee773f57069e97a3.jpg",
     "static/media/flixbus.jpg": "/landing-page/static/media/flixbus.1174fd593a980d9eeb15.jpg",
@@ -18,9 +19,10 @@
     "static/media/real-mountainsWEB.png": "/landing-page/static/media/real-mountainsWEB.7b5a8bbf4ec0ebf5a773.png",
     "static/media/buffet.jpg": "/landing-page/static/media/buffet.5369d13647c3b4882a3d.jpg",
     "static/media/marlene.jpg": "/landing-page/static/media/marlene.b3e57611d7d3d52b0a5b.jpg",
-    "static/media/mountains_illustration1WEB.svg": "/landing-page/static/media/mountains_illustration1WEB.e69eaebbbfd9d5ecf790da312d7bcdbd.svg",
     "static/media/redbull1.jpg": "/landing-page/static/media/redbull1.a1fc704cf29110ecdff9.jpg",
+    "static/media/snowboarder.jpg": "/landing-page/static/media/snowboarder.7959f2f8df289eec4958.jpg",
     "static/media/redbull.jpg": "/landing-page/static/media/redbull.3a7e39705ade3c465661.jpg",
+    "static/media/mountains_illustration1WEB.svg": "/landing-page/static/media/mountains_illustration1WEB.ee0aabbca905dc10dbfe54048d351cc2.svg",
     "static/media/LUT Logo RGB.jpg": "/landing-page/static/media/LUT Logo RGB.174d8e224a7a1fe0df7e.jpg",
     "static/media/Poppins-Light.otf": "/landing-page/static/media/Poppins-Light.f0c40fb3cca74f208452.otf",
     "static/media/ETH_Zurich_Logo.jpg": "/landing-page/static/media/ETH_Zurich_Logo.9fc6dfcd359f573c24b5.jpg",
@@ -46,11 +48,11 @@
     "static/media/facebook.svg": "/landing-page/static/media/facebook.a17098afa9480c503b04a7c1c9fe54e8.svg",
     "index.html": "/landing-page/index.html",
     "main.643e399b.css.map": "/landing-page/static/css/main.643e399b.css.map",
-    "main.d5851fe9.js.map": "/landing-page/static/js/main.d5851fe9.js.map",
+    "main.ae4d68ad.js.map": "/landing-page/static/js/main.ae4d68ad.js.map",
     "787.6606bfd5.chunk.js.map": "/landing-page/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.643e399b.css",
-    "static/js/main.d5851fe9.js"
+    "static/js/main.ae4d68ad.js"
   ]
 }
