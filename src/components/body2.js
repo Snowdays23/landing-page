@@ -4,6 +4,8 @@ import whiteStars from '../assets/img/white_stars.svg';
 import Separator from './subcomponents/separator';
 import img1SnowVolley from '../assets/img/previousImg/sports/snowvolley.jpg';
 import img2Flag from '../assets/img/previousImg/sports/flag.jpg';
+import img3Snowboarder from '../assets/img/previousImg/sports/snowboarder.jpg';
+import img4Slope from '../assets/img/previousImg/sports/slope.jpg';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
 import "../assets/css/styleBody2.css";
@@ -56,10 +58,10 @@ export default class Body2 extends Component {
 
                             <div class="flipping-image-card-wrapper">
                                 <FlippingImageCard
-                                    imgFront={img1SnowVolley} 
-                                    imgBack={img2Flag} 
-                                    textFront="We welcome you to Snowdays, Europe's biggest winter sports event" 
-                                    textBack="We offer diverse career opportunities, contacts with many companies and much more!"/>
+                                    imgFront={img4Slope} 
+                                    imgBack={img3Snowboarder} 
+                                    textFront="Get ready - 48km of slopes are calling!" 
+                                    textBack="You want to try something new? At Snowdays you can choose between many different types of sport!"/>
                             </div>
                         </div>                    
 
