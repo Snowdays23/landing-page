@@ -41,11 +41,16 @@ export default class Header extends Component {
                 </div>
 
 
-                <div className='level-main offset-down-5 offset-right-0 offset-left-0 full-width '>
+                <div className='level-main offset-down-1 offset-right-0 offset-left-0 full-width '>
 
                     <div>
 
-                        <div className='d-xs-block d-lg-none'>
+                        <div className='d-xs-block'>
+
+                            <div className='d-xs-block d-lg-none'>
+                                <Separator number={10} ></Separator>
+                            </div>
+                            
                             <div className='row justify-content-center'>
 
                                 <img src={logoSD23} id = "main-logo" className='white-shadow-stronger'  alt="Snowdays23 logo: blue snowflake with writing: SNOWDAYS"/>
@@ -66,9 +71,17 @@ export default class Header extends Component {
 
                                 <div className='col-lg-4 col-8 m-2'>
 
-                                    <h1 className='subtitle font-weight-bold text-white font-josefin blue-shadow'>SAVE THE DATE FEBRUARY 2023</h1>
-                    
+                                    <div className='d-xs-block d-lg-none'>
+                                        <h1 className='subtitle font-weight-bold text-white font-josefin blue-shadow'>SAVE THE DATE FEBRUARY 2023</h1>
+                                    </div>
+                                    
+                                    <div className='d-none d-lg-block'>
+                                        <h1 className='subtitle font-weight-bold text-blue font-josefin '>SAVE THE DATE FEBRUARY 2023</h1>
+                                    </div>
+
                                 </div>
+
+                                
                                 
                             </div>
 
