@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import bgMountains from '../assets/img/mountains_illustration2.svg';
 import LogosTable from './subcomponents/logos-table';
-import ETHLogo from '../assets/img/participantsLogo/ETH_Zurich_Logo.jpg';
-import FAULogo from '../assets/img/participantsLogo/friedrich-alexander-universitaet-fau-logo-b.jpg';
-import FHLogo from '../assets/img/participantsLogo/Fachhochschule_Vorarlberg_logo.svg.png';
-import FrankFurtLogo from '../assets/img/participantsLogo/download.png';
-import HSBALogo from '../assets/img/participantsLogo/institutionlogo27650.png';
-import IUBHLogo from '../assets/img/participantsLogo/Logo-IUBH.svg.png';
-import LUTLogo from '../assets/img/participantsLogo/LUT Logo RGB.jpg';
+import Bocconi from '../assets/img/participantsLogo/Bocconi.png';
+import ESB from '../assets/img/participantsLogo/ESB.png';
+import FS from '../assets/img/participantsLogo/Frankfurt_School.png';
+import Maastricht from '../assets/img/participantsLogo/Maastricht_University.png';
+import NOVA from '../assets/img/participantsLogo/NOVA.png';
+import TUM from '../assets/img/participantsLogo/TUM.png';
+import UNITN from '../assets/img/participantsLogo/UNITN.png';
+import WHU from '../assets/img/participantsLogo/WHU.png';
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
 import "../assets/css/style.css";
@@ -43,8 +44,7 @@ export default class Body3 extends Component {
                     <div className='row justify-content-center'>
 
                         <div className='col-10 mt-5'>
-                                    <LogosTable logos = {[ETHLogo, FAULogo, FHLogo, FrankFurtLogo, HSBALogo,
-                                IUBHLogo, LUTLogo]}></LogosTable>
+                                    <LogosTable logos = {[Bocconi, ESB, FS, Maastricht, FS, NOVA, TUM, UNITN, WHU]}></LogosTable>
 
                         </div>
 
