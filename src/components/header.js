@@ -15,10 +15,6 @@ export default class Header extends Component {
 
             <div className = "wrapper-outside  ">
 
-                {/* <div className='d-none d-lg-block'>
-                    <Separator number={30} ></Separator>
-                </div> */}
-
                 <div className = "level-bg ">
                     
                     <div className='row justify-content-center relative overlay-1'>

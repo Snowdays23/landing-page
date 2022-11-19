@@ -9,9 +9,13 @@ import Body5 from './components/body5';
 import Separator from './components/subcomponents/separator';
 import bg from "./assets/img/real-mountains.png";
 import bgWEB from './assets/img/real-mountainsWEB.png';
-import Snowfall from 'react-snowfall'
+import Snowfall from 'react-snowfall';
+import {useState, getWindowSize, useEffect} from 'react';
 
 function App() {
+
+
+
   return (
     <div  className="App"> 
       <div className = " wrapper-parallex ">
@@ -21,8 +25,13 @@ function App() {
             </div>
             <div className='d-xs-block d-lg-none'>
               <img className='wrapper-mountains-img' src={bg}  alt="Picture of mountains" />
+            </div>  
+            <div className="d-xs-block d-lg-none">
+              <Snowfall  snowflakeCount={80}/>
             </div>
-            <Snowfall  snowflakeCount={80}/>
+            <div className="d-none d-lg-block">
+              <Snowfall  snowflakeCount={160}/>
+            </div>
           </div>
       </div>
       <Header></Header>
