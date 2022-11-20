@@ -53,7 +53,7 @@ export default class Body4 extends Component {
                 <img src={bgMountains2} className="absolute full-width offset-right-0 offset-up-15"  alt="Stylized mountains"/>    
 
 
-                <div className='row justify-content-center mt-5 relative '>
+                <div className='row justify-content-center mt-5 relative m-0'>
                     <div className='col-12'>
                         <div class="mt-5 p-0 w-100">
                             <ImagesCarousel images={[img1Redbull, img2Marlene, img3Redbull, img4Flixbus, img5Alpenstoff, img6Clipper]} intervalMs={4000}/>
