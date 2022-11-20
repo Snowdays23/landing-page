@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.052ed0b8.css",
-    "main.js": "/landing-page/static/js/main.e8091921.js",
+    "main.css": "/landing-page/static/css/main.00f25023.css",
+    "main.js": "/landing-page/static/js/main.5241421c.js",
     "static/js/787.6606bfd5.chunk.js": "/landing-page/static/js/787.6606bfd5.chunk.js",
     "static/media/real-mountains.png": "/landing-page/static/media/real-mountains.77c6de43ea3da154e177.png",
     "static/media/slope.jpg": "/landing-page/static/media/slope.74239dc8ec00c37212ee.jpg",
@@ -20,18 +20,24 @@
     "static/media/clipper.jpg": "/landing-page/static/media/clipper.990d59d42b30127187dd.jpg",
     "static/media/buffet.jpg": "/landing-page/static/media/buffet.25c258e715ed6614eea7.jpg",
     "static/media/redbull.jpg": "/landing-page/static/media/redbull.b93955ca607f7a94b08a.jpg",
+    "static/media/Red-Bull.png": "/landing-page/static/media/Red-Bull.3cd199ae9fa774dbb7a6.png",
     "static/media/alpenstoff.jpg": "/landing-page/static/media/alpenstoff.b7000fe5c90d3d00e62b.jpg",
     "static/media/Poppins-Light.otf": "/landing-page/static/media/Poppins-Light.f0c40fb3cca74f208452.otf",
     "static/media/marlene.jpg": "/landing-page/static/media/marlene.51e54eb5f7b33bbf3c0a.jpg",
     "static/media/redbull1.jpg": "/landing-page/static/media/redbull1.313946ad4008d5cc384b.jpg",
     "static/media/JosefinSans-Bold.ttf": "/landing-page/static/media/JosefinSans-Bold.a3a7c833253b917d3b74.ttf",
     "static/media/UNITN.png": "/landing-page/static/media/UNITN.275d25b03bf3941161ec.png",
+    "static/media/Alpenstoff.png": "/landing-page/static/media/Alpenstoff.07a0839c7f1b9e3ba70e.png",
     "static/media/NOVA.png": "/landing-page/static/media/NOVA.61ce183925f2aa7ef93e.png",
     "static/media/Frankfurt_School.png": "/landing-page/static/media/Frankfurt_School.578949bfd0f690545ff2.png",
+    "static/media/Pompadour.png": "/landing-page/static/media/Pompadour.ca70f8635ae65e806c35.png",
     "static/media/Maastricht_University.png": "/landing-page/static/media/Maastricht_University.c23a599084d59d044578.png",
     "static/media/WHU.png": "/landing-page/static/media/WHU.f1c1703f4ffb9e7a8c08.png",
     "static/media/ESB.png": "/landing-page/static/media/ESB.72b3d16d675858d543f1.png",
+    "static/media/Loacker.png": "/landing-page/static/media/Loacker.b07afe8ee73a8107aeb8.png",
+    "static/media/Marlene.png": "/landing-page/static/media/Marlene.8113734c9fa9f1b0624d.png",
     "static/media/mountains_illustration1.svg": "/landing-page/static/media/mountains_illustration1.2a956267747030e1be14134c06548600.svg",
+    "static/media/Fischer.png": "/landing-page/static/media/Fischer.898cdbdd242a52d8871c.png",
     "static/media/Bocconi.png": "/landing-page/static/media/Bocconi.35db93088d3c6771e559.png",
     "static/media/Logo_SD_23.svg": "/landing-page/static/media/Logo_SD_23.8085caa7986ca1e23b9154c6e3234920.svg",
     "static/media/mountains_illustration2WEB.svg": "/landing-page/static/media/mountains_illustration2WEB.8c36cca798ad731654f54b2d44e7358a.svg",
@@ -45,12 +51,12 @@
     "static/media/youtube.svg": "/landing-page/static/media/youtube.8db9c6f52f1fa37e6e22af922489e9e3.svg",
     "static/media/facebook.svg": "/landing-page/static/media/facebook.a17098afa9480c503b04a7c1c9fe54e8.svg",
     "index.html": "/landing-page/index.html",
-    "main.052ed0b8.css.map": "/landing-page/static/css/main.052ed0b8.css.map",
-    "main.e8091921.js.map": "/landing-page/static/js/main.e8091921.js.map",
+    "main.00f25023.css.map": "/landing-page/static/css/main.00f25023.css.map",
+    "main.5241421c.js.map": "/landing-page/static/js/main.5241421c.js.map",
     "787.6606bfd5.chunk.js.map": "/landing-page/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.052ed0b8.css",
-    "static/js/main.e8091921.js"
+    "static/css/main.00f25023.css",
+    "static/js/main.5241421c.js"
   ]
 }
