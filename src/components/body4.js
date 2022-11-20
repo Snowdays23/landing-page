@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import bgMountains2 from '../assets/img/mountains_illustration2_white.svg';
-import clipper from '../assets/img/sponsorsLogo/clipper.png';
-import decathlon from '../assets/img/sponsorsLogo/decathlon.png';
-import loacker from '../assets/img/sponsorsLogo/loacker.png';
-import Separator from './subcomponents/separator';
+import alpenstoff from "../assets/img/sponsorsLogo/Alpenstoff.png";
+import clipper from "../assets/img/sponsorsLogo/Clipper.png";
+import fischer from "../assets/img/sponsorsLogo/Fischer.png";
+import loacker from "../assets/img/sponsorsLogo/Loacker.png";
+import marlene from "../assets/img/sponsorsLogo/Marlene.png";
+import pompadour from "../assets/img/sponsorsLogo/Pompadour.png";
+import redBull from "../assets/img/sponsorsLogo/Red-Bull.png";
+import salewa from "../assets/img/sponsorsLogo/Salewa.png";
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/bootstrap-override.css";
 import "../assets/css/style.css";
@@ -16,6 +20,7 @@ import img5Alpenstoff from "../assets/img/previousImg/sponsors/alpenstoff.jpg";
 import img6Clipper from "../assets/img/previousImg/sponsors/clipper.jpg";
 import SponsorsRoll from './subcomponents/rolling-sponsors';
 import ImagesCarousel from './subcomponents/images-carousel';
+import Separator from './subcomponents/separator';
 
 export default class Body4 extends Component {
 
@@ -41,9 +46,11 @@ export default class Body4 extends Component {
 
                         </div>
 
+                        <Separator number={10} ></Separator>
+
                         <div className='col-lg-8 col-10 mt-3'>
                             <div className='my-4'>
-                                <SponsorsRoll logos={[clipper, decathlon, loacker, loacker]}/>
+                                <SponsorsRoll logos={[alpenstoff, clipper, fischer, loacker, marlene, pompadour, redBull, salewa]}/>
                             </div>
                         </div>
                     </div>
