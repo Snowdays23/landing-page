@@ -61,8 +61,8 @@ export default class Body5 extends Component {
 
                         </div>
 
-                        <div className='row justify-content-center relative offset-up-10' >
-                            <div className='col-12'>
+                        <div class='row justify-content-center relative offset-up-10 m-0' >
+                            <div class='col-12'>
                                 <div class="">
                                     <ImagesCarousel images={[img1Colors, img2Skier, img3Snowparty, img4Buffet, img5Twister, img6Pokal, img7Yeti]} intervalMs={4000}/>
                                 </div>
