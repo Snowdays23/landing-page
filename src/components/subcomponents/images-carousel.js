@@ -6,6 +6,7 @@ import "../../assets/css/images-carousel.css";
 
 export default function ImagesCarousel({images, intervalMs=1000}) {
     const [imageIndex, setImageIndex] = useState(0);
+    const carouselInnerRef = React.createRef();
 
     const spawnImage = src => {
         const div = document.createElement("div");
@@ -29,7 +30,7 @@ export default function ImagesCarousel({images, intervalMs=1000}) {
         }
 
         const img = spawnImage(images[imageIndex]);
-        $('#carousel-inner').append(img);
+        $(carouselInnerRef.current).append(img);
         $(".carousel-slide.active")
             .one("animationend", afterLeaving)
             .removeClass("active")
@@ -43,7 +44,7 @@ export default function ImagesCarousel({images, intervalMs=1000}) {
     return (
         <div class="d-flex flex-row p-0" style={{
             minHeight: "64vmin"
-        }} id="carousel-inner">
+        }} ref={carouselInnerRef}>
             <div class="carousel-slide should-enter"></div>
             {/* <button class="carousel-button left">
                 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="white" class="bi bi-chevron-compact-left" viewBox="0 0 16 16">
