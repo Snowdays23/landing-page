@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landing-page/static/css/main.00f25023.css",
-    "main.js": "/landing-page/static/js/main.1fe79fde.js",
+    "main.js": "/landing-page/static/js/main.5f74481f.js",
     "static/js/787.6606bfd5.chunk.js": "/landing-page/static/js/787.6606bfd5.chunk.js",
     "static/media/real-mountains.png": "/landing-page/static/media/real-mountains.77c6de43ea3da154e177.png",
     "static/media/slope.jpg": "/landing-page/static/media/slope.74239dc8ec00c37212ee.jpg",
@@ -52,11 +52,11 @@
     "static/media/facebook.svg": "/landing-page/static/media/facebook.a17098afa9480c503b04a7c1c9fe54e8.svg",
     "index.html": "/landing-page/index.html",
     "main.00f25023.css.map": "/landing-page/static/css/main.00f25023.css.map",
-    "main.1fe79fde.js.map": "/landing-page/static/js/main.1fe79fde.js.map",
+    "main.5f74481f.js.map": "/landing-page/static/js/main.5f74481f.js.map",
     "787.6606bfd5.chunk.js.map": "/landing-page/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00f25023.css",
-    "static/js/main.1fe79fde.js"
+    "static/js/main.5f74481f.js"
   ]
 }
