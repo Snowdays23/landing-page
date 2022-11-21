@@ -41,6 +41,8 @@ export default class Body3 extends Component {
 
                     </div>
 
+                    <Separator number={6} />
+
                     <div className='row justify-content-center'>
 
                         <div className='col-10 mt-5'>
