@@ -41,8 +41,8 @@ export default class Body2 extends Component {
                                 <FlippingImageCard
                                     imgFront={img1SnowVolley} 
                                     imgBack={img2Flag} 
-                                    textFront="We welcome you to Snowdays, Europe's biggest winter sports event" 
-                                    textBack="We offer diverse career opportunities, contacts with many companies and much more!"/>
+                                    textFront="We welcome you to Snowdays, Europe's biggest winter sports event in all of Europe for students, by students" 
+                                    textBack="We offer diverse career opportunities, contacts with many companies, and much more!"/>
                             </div>
                         </div>
                     
@@ -61,7 +61,7 @@ export default class Body2 extends Component {
                                     imgFront={img4Slope} 
                                     imgBack={img3Snowboarder} 
                                     textFront="Get ready - 48km of slopes are calling!" 
-                                    textBack="You want to try something new? At Snowdays you can choose between many different types of sport!"/>
+                                    textBack="Do you want to try something new? At Snowdays, you can choose between many different types of sports!"/>
                             </div>
                         </div>                    
 

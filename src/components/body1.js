@@ -22,7 +22,7 @@ export default class Body1 extends Component {
 
                     <div className='col-lg-6 col-10'>
 
-                        <p className='font-josefin normal-text'>We are more than thrilled to announce the comeback of the biggest winter sports event in all of Europe</p>
+                        <p className='font-josefin normal-text'>We are more than thrilled to announce the comeback of the biggest winter sports event in all of Europe for students, by students</p>
 
                     </div>
 
@@ -57,7 +57,7 @@ export default class Body1 extends Component {
                         <div className='col-lg-6 col-10'>
 
                             <h5 className='font-poppins normal-text text-white' id="video-description" >
-                                Year after year, the event grew steadily and now, after more than 10 years, participants are more than 750 and they come from the best universities in Europe.
+                                Year after year, Snowdays grew steadily and now, after more than 10 years, participants are more than 750 and they come from the best universities in Europe.
                             </h5>
 
                         </div>

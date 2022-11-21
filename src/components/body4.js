@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import bgMountains2 from '../assets/img/mountains_illustration2_white.svg';
 import alpenstoff from "../assets/img/sponsorsLogo/Alpenstoff.png";
-import clipper from "../assets/img/sponsorsLogo/Clipper.png";
+import clipper from "../assets/img/sponsorsLogo/clipper.png";
 import fischer from "../assets/img/sponsorsLogo/Fischer.png";
-import loacker from "../assets/img/sponsorsLogo/Loacker.png";
+import loacker from "../assets/img/sponsorsLogo/loacker.png";
 import marlene from "../assets/img/sponsorsLogo/Marlene.png";
 import pompadour from "../assets/img/sponsorsLogo/Pompadour.png";
 import redBull from "../assets/img/sponsorsLogo/Red-Bull.png";
@@ -42,7 +42,7 @@ export default class Body4 extends Component {
                         <div className='col-lg-6 col-10'> 
 
                             <h2 className='title font-josefin '>SPONSORS & PARTNERS</h2>
-                            <h5 className='font-poppins normal-text'>we had the great opportunity to work with brand like</h5>
+                            <h5 className='font-poppins normal-text'>we had the great opportunity to work with brands like:</h5>
 
                         </div>
 
