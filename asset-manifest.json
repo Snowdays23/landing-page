@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landing-page/static/css/main.00f25023.css",
-    "main.js": "/landing-page/static/js/main.5241421c.js",
+    "main.js": "/landing-page/static/js/main.1fe79fde.js",
     "static/js/787.6606bfd5.chunk.js": "/landing-page/static/js/787.6606bfd5.chunk.js",
     "static/media/real-mountains.png": "/landing-page/static/media/real-mountains.77c6de43ea3da154e177.png",
     "static/media/slope.jpg": "/landing-page/static/media/slope.74239dc8ec00c37212ee.jpg",
@@ -34,7 +34,7 @@
     "static/media/Maastricht_University.png": "/landing-page/static/media/Maastricht_University.c23a599084d59d044578.png",
     "static/media/WHU.png": "/landing-page/static/media/WHU.f1c1703f4ffb9e7a8c08.png",
     "static/media/ESB.png": "/landing-page/static/media/ESB.72b3d16d675858d543f1.png",
-    "static/media/Loacker.png": "/landing-page/static/media/Loacker.b07afe8ee73a8107aeb8.png",
+    "static/media/loacker.png": "/landing-page/static/media/loacker.b07afe8ee73a8107aeb8.png",
     "static/media/Marlene.png": "/landing-page/static/media/Marlene.8113734c9fa9f1b0624d.png",
     "static/media/mountains_illustration1.svg": "/landing-page/static/media/mountains_illustration1.2a956267747030e1be14134c06548600.svg",
     "static/media/Fischer.png": "/landing-page/static/media/Fischer.898cdbdd242a52d8871c.png",
@@ -52,11 +52,11 @@
     "static/media/facebook.svg": "/landing-page/static/media/facebook.a17098afa9480c503b04a7c1c9fe54e8.svg",
     "index.html": "/landing-page/index.html",
     "main.00f25023.css.map": "/landing-page/static/css/main.00f25023.css.map",
-    "main.5241421c.js.map": "/landing-page/static/js/main.5241421c.js.map",
+    "main.1fe79fde.js.map": "/landing-page/static/js/main.1fe79fde.js.map",
     "787.6606bfd5.chunk.js.map": "/landing-page/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00f25023.css",
-    "static/js/main.5241421c.js"
+    "static/js/main.1fe79fde.js"
   ]
 }
