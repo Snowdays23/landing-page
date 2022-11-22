@@ -46,7 +46,7 @@ export default class Body3 extends Component {
                     <div className='row justify-content-center'>
 
                         <div className='col-10 mt-5'>
-                                    <LogosTable logos = {[Bocconi, ESB, FS, Maastricht, FS, NOVA, TUM, UNITN, WHU]}></LogosTable>
+                                    <LogosTable logos = {[Bocconi, ESB, FS, Maastricht, NOVA, TUM, UNITN, WHU]}></LogosTable>
 
                         </div>
 

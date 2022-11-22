@@ -23,7 +23,7 @@ export default class Body2 extends Component {
                         <Separator number={20} ></Separator>
                 </div>
 
-                <div className = "container relative offset-up-7">
+                <div className = "container relative offset-up-7 ">
 
                     <div className='row justify-content-center relative offset-up-5' >
 
@@ -35,26 +35,26 @@ export default class Body2 extends Component {
 
                     </div>              
                     
-                    <div className='row justify-content-center'>
-                        <div className=' col-lg-5 col-10'>
+                    <div className='row justify-content-center '>
+                        <div className=' col-lg-5 col-10 '>
                             <div class="flipping-image-card-wrapper ">
                                 <FlippingImageCard
                                     imgFront={img1SnowVolley} 
                                     imgBack={img2Flag} 
-                                    textFront="We welcome you to Snowdays, Europe's biggest winter sports event in all of Europe for students, by students" 
+                                    textFront="We welcome you to Snowdays, Europe’s biggest winter sports event, organized by students, for students" 
                                     textBack="We offer diverse career opportunities, contacts with many companies, and much more!"/>
                             </div>
                         </div>
                     
-                        <div class="w-100 d-xs-block d-lg-none "></div>
+                        <div className="w-100 d-xs-block d-lg-none "></div>
 
                         <div className='d-xs-block d-lg-none col-12'>
                              <Separator number={30} ></Separator>
                         </div>
 
-                        <div class="w-100 d-xs-block d-lg-none "></div>
+                        <div className="w-100 d-xs-block d-lg-none "></div>
 
-                        <div className=' col-lg-5 col-10 mr-4'>
+                        <div className=' col-lg-5 col-10 mr-4 relative overlay-1'>
 
                             <div class="flipping-image-card-wrapper">
                                 <FlippingImageCard
@@ -66,7 +66,7 @@ export default class Body2 extends Component {
                         </div>                    
 
                         <div className='row justify-content-center'>
-                            <div className='d-none d-sm-block d-md-none'>
+                            <div className='d-none d-sm-block'>
                                 <div className='relative white-separator-sm'></div>
                             </div>
                         </div>
