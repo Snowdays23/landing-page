@@ -5,6 +5,8 @@ import logoSD23 from '../assets/img/Logo_SD_23.svg';
 import whiteStars from '../assets/img/white_stars.svg';
 import blueStars from '../assets/img/blue_stars.svg';
 import Separator from './subcomponents/separator';
+import saveTheDate from '../assets/img/saveTheDate.png';
+import saveTheDateWEB from '../assets/img/saveTheDateWEB.png';
 import "../assets/css/style.css";
 import "../assets/css/styleHeader.css";
 import "../assets/css/bootstrap.min.css";  
@@ -56,7 +58,7 @@ export default class Header extends Component {
 
                             <Separator number={10} ></Separator>
                             <div className='d-none d-sm-block d-lg-none'>
-                                <Separator number={10} ></Separator>
+                                <Separator number={5} ></Separator>
                             </div>
                             
                             <div className='row justify-content-center relative offset-down5'>
@@ -67,12 +69,14 @@ export default class Header extends Component {
 
                                 <div className='col-lg-4 col-8 m-2'>
 
-                                    <div className='d-xs-block d-lg-none'>
-                                        <h1 className='subtitle font-weight-bold text-white font-josefin blue-shadow'>SAVE THE DATE FEBRUARY 2023</h1>
+                                    <div className='d-xs-block d-lg-none row justify-content-center relative offset-up-5'>
+                                        {/* <h1 className='subtitle font-weight-bold text-white font-josefin blue-shadow'>SAVE THE DATE FEBRUARY 2023</h1> */}
+                                        <img src={saveTheDate} style={{height: 'auto', width: '60vw'}} alt="Save the Date Blurred"/>
+
                                     </div>
                                     
-                                    <div className='d-none d-lg-block'>
-                                        <h1 className='subtitle font-weight-bold text-blue font-josefin '>SAVE THE DATE FEBRUARY 2023</h1>
+                                    <div className='d-none d-lg-block row justify-content-center relative offset-up-1'>
+                                        <img src={saveTheDateWEB} style={{height: 'auto', width: '30vw'}} alt="Save the Date Blurred"/>
                                     </div>
 
                                 </div>

@@ -22,7 +22,7 @@ export default class Body1 extends Component {
 
                     <div className='col-lg-6 col-10'>
 
-                        <p className='font-josefin normal-text'>We are more than thrilled to announce the comeback of the biggest winter sports event in all of Europe for students, by students</p>
+                        <p className='font-josefin normal-text'>We are more than thrilled to announce the comeback of the Europe’s biggest winter sports event, organized by students, for students</p>
 
                     </div>
 
