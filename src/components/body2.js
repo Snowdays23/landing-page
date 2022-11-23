@@ -36,7 +36,7 @@ export default class Body2 extends Component {
                     </div>              
                     
                     <div className='row justify-content-center '>
-                        <div className=' col-lg-5 col-10 '>
+                        <div className=' col-lg-5 col-10 relative overlay-1'>
                             <div class="flipping-image-card-wrapper ">
                                 <FlippingImageCard
                                     imgFront={img1SnowVolley} 
