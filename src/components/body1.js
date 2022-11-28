@@ -12,7 +12,7 @@ export default class Body1 extends Component {
     render () {
         return (
 
-            <div className = "wrapper-outside-body relative offset-up-10">
+            <div className = "wrapper-outside-body relative offset-up-10 relative ">
 
                 <div className='d-none d-lg-block'>
                     <div className='white-separator-xs relative offset-down-10'></div>
@@ -28,7 +28,8 @@ export default class Body1 extends Component {
 
                 </div>
 
-                <img src={blueStars} id = "blue-stars2" className='absolute overlay-1 offset-down-5 offset-right-0' alt="Blue stars"/>
+                <img src={blueStars} id = "blue-stars2" className='absolute overlay-1 offset-down-5 offset-right-0 d-xs-block d-lg-none' alt="Blue stars"/>
+                <img src={blueStars} id = "blue-stars2" className='absolute overlay-1 offset-down-5 offset-right-0 mr-5 d-none d-lg-block' alt="Blue stars"/>
                 
                 <div className='mt-5 overlay-1 relative'>
 

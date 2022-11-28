@@ -60,7 +60,7 @@ export default class Body2 extends Component {
                                 <FlippingImageCard
                                     imgFront={img4Slope} 
                                     imgBack={img3Snowboarder} 
-                                    textFront="Get ready - 48km of slopes are calling!" 
+                                    textFront="Get ready - 40km of slopes are calling!" 
                                     textBack="Do you want to try something new? At Snowdays, you can choose between many different types of sports!"/>
                             </div>
                         </div>                    

@@ -56,10 +56,10 @@ export default class Header extends Component {
                             </div>                
 
 
-                            <Separator number={10} ></Separator>
-                            <div className='d-none d-sm-block d-lg-none'>
-                                <Separator number={5} ></Separator>
-                            </div>
+                            <Separator number={5} ></Separator>
+                            {/* <div className='d-none d-sm-block d-lg-none'>
+                                <Separator number={10} ></Separator>
+                            </div> */}
                             
                             <div className='row justify-content-center relative offset-down5'>
 
@@ -69,14 +69,15 @@ export default class Header extends Component {
 
                                 <div className='col-lg-4 col-8 m-2'>
 
-                                    <div className='d-xs-block d-lg-none row justify-content-center relative offset-up-5'>
-                                        {/* <h1 className='subtitle font-weight-bold text-white font-josefin blue-shadow'>SAVE THE DATE FEBRUARY 2023</h1> */}
-                                        <img src={saveTheDate} style={{height: 'auto', width: '60vw'}} alt="Save the Date Blurred"/>
-
+                                    <div className='d-xs-block d-lg-none'>
+                                        <h1 className='subtitle font-weight-bold text-white font-josefin blue-shadow'>SAVE THE DATE </h1>
+                                        <h1 className='subtitle font-weight-bold text-white font-josefin blue-shadow'>23rd - 26th </h1>
+                                        <h1 className='subtitle font-weight-bold text-white font-josefin blue-shadow'>FEBRUARY 2023</h1>
                                     </div>
                                     
-                                    <div className='d-none d-lg-block row justify-content-center relative offset-up-1'>
-                                        <img src={saveTheDateWEB} style={{height: 'auto', width: '30vw'}} alt="Save the Date Blurred"/>
+                                    <div className='d-none d-lg-block'>
+                                        <h1 className='subtitle font-weight-bold text-blue font-josefin '>SAVE THE DATE </h1>
+                                        <h1 className='subtitle font-weight-bold text-blue font-josefin '>23rd - 26th FEBRUARY 2023 </h1>
                                     </div>
 
                                 </div>
@@ -87,7 +88,7 @@ export default class Header extends Component {
 
                         </div>
 
-                        <div className='d-none d-sm-block d-lg-none'>
+                        <div className='d-xs-block d-lg-none'>
                             
                             <div className = "row justify-content-center relative offset-up-10 offset-right-30">
                                 <img src={whiteStars} id="white-stars1" className = "blue-shadow overlay-1" alt="Little white stars"/>
@@ -99,7 +100,10 @@ export default class Header extends Component {
 
                         <br/>
                         
-                        <div className = "row justify-content-center relative offset-down-5 offset-left-30">
+                        <div className = "row justify-content-center relative offset-down-0 offset-left-30 d-xs-block d-lg-none">
+                            <div className='d-xs-block d-sm-none'>
+                                <Separator number={2} ></Separator>
+                            </div>
                             <img src={blueStars} id="blue-stars1" className = "white-shadow overlay-1"  alt="Little blue stars"/>
                         </div>
 
