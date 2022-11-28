@@ -87,7 +87,7 @@ export default class Header extends Component {
 
                         </div>
 
-                        <div className='d-none d-sm-block d-lg-none'>
+                        <div className='d-xs-block d-lg-none'>
                             
                             <div className = "row justify-content-center relative offset-up-10 offset-right-30">
                                 <img src={whiteStars} id="white-stars1" className = "blue-shadow overlay-1" alt="Little white stars"/>
@@ -99,7 +99,10 @@ export default class Header extends Component {
 
                         <br/>
                         
-                        <div className = "row justify-content-center relative offset-down-5 offset-left-30">
+                        <div className = "row justify-content-center relative offset-down-0 offset-left-30 d-xs-block d-lg-none">
+                            <div className='d-xs-block d-sm-none'>
+                                <Separator number={2} ></Separator>
+                            </div>
                             <img src={blueStars} id="blue-stars1" className = "white-shadow overlay-1"  alt="Little blue stars"/>
                         </div>
 
